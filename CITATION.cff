@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this book, please cite it as below."
+title: "热点的账单：用五个核心，诊断过去一年的热搜与争论"
+type: book
+authors:
+  - family-names: "李"
+    given-names: "毅芃"
+date-released: "2026-10-16"
+license: CC-BY-4.0
+url: "https://github.com/lyp0746/hotspot-bills"
+repository-code: "https://github.com/lyp0746/hotspot-bills"
+abstract: >-
+  用同系列研究的五个核心（看见、记住、跟上、选择、讲述）诊断公共讨论的结构；
+  案例来自过去一年知乎每日热榜存档（2025-10-16 ~ 2026-10-16，338 天、2875 话题）
+  与 X 按国家按日期的历史趋势（美/英/日，81 个"国家—日"采样）。
+keywords:
+  - 热点
+  - 五核诊断
+  - 时间错配
+  - 不可能三角
+  - 置信度
+  - 科普

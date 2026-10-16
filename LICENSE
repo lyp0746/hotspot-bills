@@ -1,0 +1,30 @@
+# License
+
+本仓库包含两类内容，分别适用不同许可：
+
+## 1) 书稿与文档（内容）
+
+通俗读本《只能选两样》与系列文档（即 `popular/source/`、`docs/`、`popular/assets/` 中的文本与插图）
+采用 **知识共享署名 4.0 国际（CC BY 4.0）** 许可。
+
+你可以自由地共享与改编这些内容，用于任何目的（包括商业用途），但须：
+
+- **署名**——注明原作者（李毅芃）与出处；
+- **标注修改**——若作出改动，须说明。
+
+许可证全文见 <https://creativecommons.org/licenses/by/4.0/legalcode>，
+中文摘要见 <https://creativecommons.org/licenses/by/4.0/deed.zh>。
+
+推荐引用格式：
+
+> 李毅芃. 《只能选两样：从来不及、会忘记到说不清——五个核心，看懂复杂世界的取舍》. 2026-10-16. CC BY 4.0.
+
+## 2) 代码（构建与分析脚本）
+
+`popular/*.py`、`popular/analysis/`、`popular/scripts/` 等**软件代码**采用
+**MIT 许可**，见 `LICENSE-MIT`。
+
+## 关联专著
+
+本仓库所连接的系列五本学术专著各自独立授权（同为 CC BY 4.0），
+见各自仓库与 DOI（详见 `README.md`）。

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620" width="900" height="620" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif">
+<rect width="900" height="620" fill="#ffffff"/>
+<text x="450" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">一张诊断卡：把五个问题合起来</text>
+<text x="450" y="62" text-anchor="middle" font-size="14" fill="#666">每个热点，填一张这样的卡</text>
+<rect x="170" y="96" width="560" height="58" rx="8" fill="#fbfcfe" stroke="#666" stroke-width="1.4"/>
+<rect x="170" y="96" width="150" height="58" rx="8" fill="#666" opacity="0.14"/>
+<text x="245" y="132" text-anchor="middle" font-size="16" fill="#666" font-weight="bold">事件 / 时间 / 平台</text>
+<text x="340" y="132" text-anchor="start" font-size="14" fill="#1a1a1a" font-weight="normal">一句话</text>
+<rect x="170" y="166" width="560" height="58" rx="8" fill="#fbfcfe" stroke="#2f6db0" stroke-width="1.4"/>
+<rect x="170" y="166" width="150" height="58" rx="8" fill="#2f6db0" opacity="0.14"/>
+<text x="245" y="202" text-anchor="middle" font-size="16" fill="#2f6db0" font-weight="bold">① 看见</text>
+<text x="340" y="202" text-anchor="start" font-size="14" fill="#1a1a1a" font-weight="normal">关键分界线；被划入 / 划出的人</text>
+<rect x="170" y="236" width="560" height="58" rx="8" fill="#fbfcfe" stroke="#2e7d32" stroke-width="1.4"/>
+<rect x="170" y="236" width="150" height="58" rx="8" fill="#2e7d32" opacity="0.14"/>
+<text x="245" y="272" text-anchor="middle" font-size="16" fill="#2e7d32" font-weight="bold">② 记住</text>
+<text x="340" y="272" text-anchor="start" font-size="14" fill="#1a1a1a" font-weight="normal">被压缩成的标签；丢掉的条件</text>
+<rect x="170" y="306" width="560" height="58" rx="8" fill="#fbfcfe" stroke="#ef6c00" stroke-width="1.4"/>
+<rect x="170" y="306" width="150" height="58" rx="8" fill="#ef6c00" opacity="0.14"/>
+<text x="245" y="342" text-anchor="middle" font-size="16" fill="#ef6c00" font-weight="bold">③ 跟上</text>
+<text x="340" y="342" text-anchor="start" font-size="14" fill="#1a1a1a" font-weight="normal">快钟 / 慢钟；τ 的粗略量级</text>
+<rect x="170" y="376" width="560" height="58" rx="8" fill="#fbfcfe" stroke="#b8862f" stroke-width="1.4"/>
+<rect x="170" y="376" width="150" height="58" rx="8" fill="#b8862f" opacity="0.14"/>
+<text x="245" y="412" text-anchor="middle" font-size="16" fill="#b8862f" font-weight="bold">④ 选择</text>
+<text x="340" y="412" text-anchor="start" font-size="14" fill="#1a1a1a" font-weight="normal">各方要的两样；让出的一样</text>
+<rect x="170" y="446" width="560" height="58" rx="8" fill="#fbfcfe" stroke="#8e5a9c" stroke-width="1.4"/>
+<rect x="170" y="446" width="150" height="58" rx="8" fill="#8e5a9c" opacity="0.14"/>
+<text x="245" y="482" text-anchor="middle" font-size="16" fill="#8e5a9c" font-weight="bold">⑤ 讲述</text>
+<text x="340" y="482" text-anchor="start" font-size="14" fill="#1a1a1a" font-weight="normal">争吵所在层；位置冲突 or 事实冲突</text>
+<rect x="170" y="522" width="560" height="54" rx="8" fill="#fff8e1" stroke="#b8862f" stroke-width="1.4"/>
+<text x="190" y="556" text-anchor="start" font-size="15" fill="#b8862f" font-weight="bold">诊断结论 ＋ 证据等级（A/B/C）＋ 可反驳条件</text>
+</svg>

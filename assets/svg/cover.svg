@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1414" width="1000" height="1414">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#0e1117"/><stop offset="0.55" stop-color="#151a23"/>
+<stop offset="1" stop-color="#0b0e14"/>
+</linearGradient>
+</defs>
+<rect x="0" y="0" width="1000" height="1414" fill="url(#bg)"/>
+<rect x="0" y="0" width="1000" height="8" fill="#b8862f" opacity="0.85"/>
+<polyline points="120,752 128,750 135,747 143,744 150,740 158,736 166,730 173,724 181,718 188,710 196,702 204,692 211,683 219,672 226,662 234,651 242,640 249,629 257,619 264,610 272,601 280,594 287,588 295,584 302,581 310,580 318,581 325,584 333,588 340,594 348,601 356,610 363,619 371,629 378,640 386,650 394,661 401,671 409,681 416,689 424,697 432,704 439,709 447,712 454,714 462,713 470,711 477,706 485,698 492,689 500,677 508,663 515,647 523,629 530,611 538,592 546,573 553,556 561,540 568,528 576,518 584,512 591,510 599,512 606,518 614,528 622,541 629,557 637,575 644,594 652,613 660,633 667,651 675,669 682,685 690,699 698,711 705,722 713,730 720,738 728,743 736,748 743,751 751,754 758,756 766,757 774,758 781,759 789,759 796,759 804,760 812,760 819,760 827,760 834,760 842,760 850,760 857,760 865,760 872,760 880,760" fill="none" stroke="#5b6b7d" stroke-width="2"/>
+<circle cx="220" cy="830" r="26" fill="none" stroke="#b8862f" stroke-width="1.6" opacity="0.8"/>
+<line x1="211" y1="839" x2="198" y2="852" stroke="#b8862f" stroke-width="2" opacity="0.7"/>
+<text x="220" y="884" text-anchor="middle" class="sm">看见</text>
+<circle cx="360" cy="830" r="26" fill="none" stroke="#b8862f" stroke-width="1.6" opacity="0.8"/>
+<line x1="351" y1="839" x2="338" y2="852" stroke="#b8862f" stroke-width="2" opacity="0.7"/>
+<text x="360" y="884" text-anchor="middle" class="sm">记住</text>
+<circle cx="500" cy="830" r="26" fill="none" stroke="#b8862f" stroke-width="1.6" opacity="0.8"/>
+<line x1="491" y1="839" x2="478" y2="852" stroke="#b8862f" stroke-width="2" opacity="0.7"/>
+<text x="500" y="884" text-anchor="middle" class="sm">跟上</text>
+<circle cx="640" cy="830" r="26" fill="none" stroke="#b8862f" stroke-width="1.6" opacity="0.8"/>
+<line x1="631" y1="839" x2="618" y2="852" stroke="#b8862f" stroke-width="2" opacity="0.7"/>
+<text x="640" y="884" text-anchor="middle" class="sm">选择</text>
+<circle cx="780" cy="830" r="26" fill="none" stroke="#b8862f" stroke-width="1.6" opacity="0.8"/>
+<line x1="771" y1="839" x2="758" y2="852" stroke="#b8862f" stroke-width="2" opacity="0.7"/>
+<text x="780" y="884" text-anchor="middle" class="sm">讲述</text>
+<line x1="120" y1="910" x2="880" y2="910" stroke="#7d8a99" stroke-width="1" opacity="0.5"/>
+<text x="500" y="950" text-anchor="middle" class="mid">看点，不如看账单</text>
+<style>
+text{font-family:'Microsoft YaHei','SimHei',Arial,sans-serif;}
+.ttl{font-size:112px;font-weight:700;letter-spacing:14px;fill:#e8e6df;}
+.sub{font-size:28px;fill:#9aa0a6;letter-spacing:2px;}
+.eng{font-size:20px;fill:#9aa0a6;letter-spacing:1px;}
+.au{font-size:30px;fill:#e8e6df;letter-spacing:2px;}
+.rule{stroke:#9aa0a6;stroke-width:1;opacity:0.6;}
+.mid{font-size:30px;fill:#b8862f;letter-spacing:6px;font-weight:700;}
+.sm{font-size:20px;fill:#cfd6de;letter-spacing:1px;}
+</style>
+<text x="80" y="176" class="eng">THE BILL OF THE HOT LIST</text>
+<text x="80" y="300" class="ttl">热点的账单</text>
+<line x1="84" y1="344" x2="720" y2="344" class="rule"/>
+<text x="84" y="396" class="sub">用五个核心，</text>
+<text x="84" y="440" class="sub">诊断过去一年的热搜与争论</text>
+<text x="80" y="1230" class="au">李毅芃　著</text>
+<text x="80" y="1282" class="eng">Five Lenses on a Year of Hot Debates</text>
+<text x="80" y="1324" class="eng">通俗诊断读本 · 2026</text>
+</svg>

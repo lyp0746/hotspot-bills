@@ -1,0 +1,46 @@
+<h2 class="chapter">附录</h2>
+<h3>附录 A　诊断卡模板（可直接复制）</h3>
+<p>``` 事件：__________________________ 时间 / 平台：____________________ 链接 / 关键帖：__________________</p>
+<p>① 看见（区分） 关键分界线：__________________ 被划入 / 划出的人：____________</p>
+<p>② 记住（容量 / 遗忘） 被压缩成的标签：______________ 被丢掉的条件 / 概率 / 上下文：__</p>
+<p>③ 跟上（时间错配 τ） 快钟：________________________ 慢钟：________________________ τ 的粗略量级：________________</p>
+<p>④ 选择（C-A-T） 各方想要的两样：______________ 各让出的一样：________________</p>
+<p>⑤ 讲述（置信度分层） 争吵所在的层：事实 / 推理 / 诠释 位置冲突 还是 事实冲突：______</p>
+<p>诊断结论（这张账单的总账）：______ 证据等级：A / B / C 可反驳条件：若发生 ______，则本卡被推翻。 ```</p>
+<h3>附录 B　五个核心一页速查</h3>
+<table class="nat">
+<tr><th class="l">核心</th><th class="l">一句话</th><th class="l">对热点问什么</th></tr>
+<tr><td class="l">看见</td><td class="l">认识从划一道线开始，而划线有成本</td><td class="l">在划什么线？谁被排除？</td></tr>
+<tr><td class="l">记住</td><td class="l">遗忘不是失败，是有限容量的账单</td><td class="l">被压成什么标签？丢了什么？</td></tr>
+<tr><td class="l">跟上</td><td class="l">不是不知道，是来不及</td><td class="l">快钟 vs 慢钟；τ 多大？</td></tr>
+<tr><td class="l">选择</td><td class="l">完备、可组合、传递，至多取二</td><td class="l">各方要哪两样？让出哪一样？</td></tr>
+<tr><td class="l">讲述</td><td class="l">诠释就是给竞争命题分配置信度</td><td class="l">在哪一层？抢位置还是争事实？</td></tr>
+</table>
+<p><strong>证据等级</strong>：A 官方可复现 / B 稳定公开估计 / C 稀疏·构造·思辨。 <strong>概念等级</strong>：甲 成熟形式化 / 乙 有论证但依赖未证前提 / 丙 思辨假说。 <strong>合并写作</strong>：<code>A／甲</code>。<strong>纪律：结论强度不超过证据强度。</strong></p>
+<h3>附录 C　数据采集脚本与来源</h3>
+<p>本书配套脚本（均为低频、带缓存、失败即停，不绕过平台风控）：</p>
+<ul><li><code>analysis/collect_zhihu.py</code> —— 抓取知乎热榜/关键词（公开接口；搜索需登录态 Cookie）。</li><li><code>analysis/collect_x.py</code> —— 调用 X API v2（需 Bearer Token；<code>recent search</code> 仅覆盖最近 7 天，完整历史需更高访问等级）。</li><li><code>analysis/cluster_events.py</code> —— 去重、聚类、按热度和时间排序，输出 <code>data/events.json</code>。</li></ul>
+<p><strong>数据来源与口径</strong>：知乎、X 的公开内容与公开指标。第三方内容的权利归原作者与平台所有；本书只作结构性诊断，不用于对个人的评价。</p>
+<p><strong>怎样新增一个事件</strong>： 1. 运行采集脚本（或在 <code>data/events.json</code> 手工添加一条）； 2. 按附录 A 的模板填写诊断卡； 3. 在 <code>data/events.json</code> 里为它补上 <code>evidence</code>（A/B/C）与 <code>refutable</code>（可反驳条件）； 4. 重新构建，即生成新的案例章节。</p>
+<h3>附录 D　可证伪登记（append-only）</h3>
+<table class="nat">
+<tr><th class="l">编号</th><th class="l">命题</th><th class="l">预测（方向）</th><th class="l">可反驳条件</th><th class="l">状态</th></tr>
+<tr><td class="l">H1</td><td class="l">时间错配是舆论反转的结构性原因</td><td class="l">"快表态、慢调查"的事件占多数，且反转率与 τ 正相关</td><td class="l">若调查速度普遍追平传播速度，且反转率不降</td><td class="l">待核</td></tr>
+<tr><td class="l">H2</td><td class="l">推荐系统在机制上让出 T</td><td class="l">主流推荐显著降低跨立场信息接触</td><td class="l">若长期实验显示跨立场接触显著提升</td><td class="l">待核</td></tr>
+<tr><td class="l">H3</td><td class="l">五核诊断法对热点有增量价值</td><td class="l">使用诊断卡的人群，转发冲动下降、查证行为上升</td><td class="l">若对照实验显示无差异</td><td class="l">待核</td></tr>
+</table>
+<div class="box"><p>本登记 append-only：只追加，不改写旧行。</p></div>
+<h3>附录 E　术语（大词变小词）</h3>
+<table class="nat">
+<tr><th class="l">词</th><th class="l">小词</th></tr>
+<tr><td class="l">区分</td><td class="l">划一道线</td></tr>
+<tr><td class="l">容量 / 压缩</td><td class="l">注意力有限，所以只能记大概</td></tr>
+<tr><td class="l">时间错配 τ</td><td class="l">事情变快的速度 ÷ 你回应的速度</td></tr>
+<tr><td class="l">完备 C / 可组合 A / 传递 T</td><td class="l">看得准 / 拼得上 / 传得下去</td></tr>
+<tr><td class="l">置信度分配</td><td class="l">这件事该有多可信</td></tr>
+<tr><td class="l">位置冲突</td><td class="l">不是真假之争，是尺度与站位之争</td></tr>
+</table>
+<h3>附录 F　延伸</h3>
+<ul><li>系列入口与外部登记库：<https://github.com/lyp0746/knowledge-tradeoffs></li><li>通俗读本《只能选两样》：同上仓库 <code>popular/</code></li></ul>
+<h3>附录 G　免责声明</h3>
+<p>本书是对公共讨论结构的<strong>诊断练习</strong>，不是新闻调查，也不是对任何个人或机构的指控。凡涉及具体事实，请以权威一手来源为准。使用的平台数据均为公开内容，采集遵守平台条款与相关法律。</p>
