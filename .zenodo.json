@@ -1,0 +1,24 @@
+{
+  "title": "热点的账单：用五个核心，诊断过去一年的热搜与争论 / The Bill of the Hot List: Five Lenses on a Year of Hot Debates",
+  "description": "<p>热搜为什么总让人越看越看不懂？本书用同系列研究的五个核心（看见、记住、跟上、选择、讲述），把过去一年知乎与 X 上被反复讨论的事件，逐一变成一张张“诊断卡”。它不是对事件的判决，而是对“争论为什么会吵成这样、它让出了什么”的结构诊断。案例全部来自真实数据：知乎热榜每日存档（2025-10-16 ~ 2026-10-16，338 天、2875 个话题）与 X 按国家按日期的历史趋势存档（美/英/日，81 个“国家—日”采样）。每张卡都标注证据等级与可反驳条件——结论强度不超过证据强度。</p><p>源码、采集脚本与构建流程见 <a href=\"https://github.com/lyp0746/hotspot-bills\">GitHub</a>。内容许可 CC BY 4.0；代码许可 MIT。</p>",
+  "creators": [
+    {"name": "李毅芃", "affiliation": "独立研究者 / Independent Researcher"}
+  ],
+  "keywords": ["热点的账单", "The Bill of the Hot List", "五核诊断", "热搜", "知乎", "X", "时间错配", "不可能三角", "置信度", "复杂系统", "媒介研究"],
+  "notes": "科目 / Subjects — 中文：科学普及、复杂系统、媒介研究、科学方法论、社会观察。English: Popular Science, Complex Systems, Media Studies, Scientific Methodology, Social Commentary.",
+  "license": "CC-BY-4.0",
+  "upload_type": "publication",
+  "publication_type": "book",
+  "language": "zho",
+  "access_right": "open",
+  "publication_date": "2026-10-16",
+  "related_identifiers": [
+    {"identifier": "https://github.com/lyp0746/hotspot-bills", "relation": "isSupplementedBy", "scheme": "url"},
+    {"identifier": "https://github.com/lyp0746/knowledge-tradeoffs", "relation": "references", "scheme": "url"},
+    {"identifier": "10.5281/zenodo.23286403", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.23323277", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.23412033", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.23388629", "relation": "references", "scheme": "doi"},
+    {"identifier": "10.5281/zenodo.23416220", "relation": "references", "scheme": "doi"}
+  ]
+}
