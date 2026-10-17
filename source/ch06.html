@@ -1,0 +1,110 @@
+<h2 class="chapter">第六章　季度复盘：四个季度，四种形状</h2>
+<div class="box"><p>这一章用同一份存档做一次"时间上的横切"：把一年切成四段，看每一段的注意力形状有什么不同。<strong>所有数字都由脚本从存档直接统计，见 <code>analysis/quarter.py</code> 与 <code>analysis/quarter2.py</code>。</strong></p>
+<p><strong>先声明一个必须声明的局限：</strong> Q4 只有 70 天存档（2026-07-16 ~ 2026-10-16 之间有缺日），其余三季度分别有 91、87、90 天。因此<strong>跨季度的绝对数不可直接比较</strong>，只能比较"结构"。</p></div>
+
+<h3 id="sec6-1">6.1　四张表：结构比总数更可靠</h3>
+<table class="nat">
+<tr><th class="l">季度</th><th class="l">存档天数</th><th class="l">话题日总数</th><th class="l">不同话题数</th><th class="l">头名上榜天数</th><th class="l">前五名合计</th><th class="l">前五占比</th></tr>
+<tr><td class="l">Q1</td><td class="l">91</td><td class="l">2327</td><td class="l">487</td><td class="l">71</td><td class="l">234</td><td class="l">10.1%</td></tr>
+<tr><td class="l">Q2</td><td class="l">87</td><td class="l">2017</td><td class="l">572</td><td class="l">34</td><td class="l">161</td><td class="l">8.0%</td></tr>
+<tr><td class="l">Q3</td><td class="l">90</td><td class="l">2177</td><td class="l">1091</td><td class="l">43</td><td class="l">204</td><td class="l">9.4%</td></tr>
+<tr><td class="l">Q4</td><td class="l">70</td><td class="l">1716</td><td class="l">993</td><td class="l">18</td><td class="l">69</td><td class="l">4.0%</td></tr>
+</table>
+<p>三件可以立刻读出来的事：</p>
+<ul>
+<li><strong>Q1 最"集中"，而且集中在"向内"的话题上。</strong> 头名"你的低成本爱好是什么"上榜 71 天，前五名合计 234 个话题日，占总量的十分之一。</li>
+<li><strong>Q3 最"碎"，却又最"垄断"。</strong> 不同话题数 1091（四个季度最多），但前五名几乎全是同一个事件（中东）的五个问法——<strong>整体的碎片化，掩盖了单点的垄断</strong>。</li>
+<li><strong>Q4 的前五占比只有 4.0%，但不能就此说"注意力更分散"</strong>——因为它少采了 20 天，且这 20 天里可能正是最集中的时段。这是"数据缺口 → 结论方向"的典型陷阱。</li>
+</ul>
+<div class="box"><p><strong>方法提醒</strong>：任何"季度对比"都必须先问一句：<strong>每个季度的采样口径一样吗？</strong> 不一样，就只能比形状，不能比大小。</p></div>
+
+<img class="fig" src="assets/svg/fig-quarters.svg" alt="图 6.1　四个季度：碎片化上升，集中度反复"><div class="cap"><b>图 6.1　四个季度：碎片化上升，集中度反复</b></div>
+<p>看图就很清楚：不同话题数从 Q1 的 487 一路上升到 Q3 的 1091，说明“被讨论的东西”越来越多；但前五名占比并没有单调下降，Q3 反而回到 9.4%——因为一个事件（中东）把它的五个问法同时顶上去了。</p>
+<p><strong>这就是为什么“碎片化”与“集中化”可以同时发生。</strong></p>
+
+<h3 id="sec6-2">6.2　Q1：向内的一年开始（2025-10-16 ~ 2026-01-15，91 天）</h3>
+<table class="nat">
+<tr><th class="l">话题</th><th class="l">上榜天数</th></tr>
+<tr><td class="l">你的低成本爱好是什么</td><td class="l">71</td></tr>
+<tr><td class="l">人在什么情况下成长的最快</td><td class="l">59</td></tr>
+<tr><td class="l">炒股让你明白了什么真理</td><td class="l">37</td></tr>
+<tr><td class="l">普通家庭对孩子最好的托举是什么</td><td class="l">34</td></tr>
+<tr><td class="l">大家提升自己最快的方式是什么</td><td class="l">33</td></tr>
+<tr><td class="l">常年独居的人靠什么抵抗孤独</td><td class="l">32</td></tr>
+<tr><td class="l">为什么人不能靠意志力戒毒</td><td class="l">30</td></tr>
+<tr><td class="l">你给孩子最大的托底是什么</td><td class="l">29</td></tr>
+<tr><td class="l">山姆超市质量到底如何</td><td class="l">25</td></tr>
+<tr><td class="l">什么行为极大改善了你的心理健康</td><td class="l">25</td></tr>
+</table>
+<p><strong>形状：</strong> 十条里有七条是"我该怎么活"——爱好、成长、独居、心理、育儿、戒毒。这不是"社会事件"，是<strong>持续的背景焦虑</strong>。</p>
+<p><strong>诊断：</strong> 用第五把尺子（讲述）看，这一季的讨论绝大多数停在<strong>推理层与诠释层</strong>：大家在交换"什么有效"的个人经验，而不是核查"到底有多少人这样"。这让它很适合共鸣，很不适合当证据。</p>
+<p><strong>一个可反驳的判断：</strong> 如果这类"向内话题"在下一季仍然占据前十，说明它不是季节性情绪，而是结构性焦虑。→ 事实上 Q2、Q3 它依然在榜（"低成本爱好"在 Q2 仍有 31 天，Q3 有 15 天）。<strong>这个判断活下来了。</strong></p>
+
+<h3 id="sec6-3">6.3　Q2：向外看，但看得不安（2026-01-16 ~ 2026-04-15，87 天）</h3>
+<table class="nat">
+<tr><th class="l">话题</th><th class="l">上榜天数</th></tr>
+<tr><td class="l">黄金什么时候会大跌</td><td class="l">34</td></tr>
+<tr><td class="l">如何评价电视剧新三国</td><td class="l">34</td></tr>
+<tr><td class="l">认知水平高的人有什么特征</td><td class="l">33</td></tr>
+<tr><td class="l">你的低成本爱好是什么</td><td class="l">31</td></tr>
+<tr><td class="l">什么生活常识必须知道</td><td class="l">29</td></tr>
+<tr><td class="l">为什么很多人喜欢和 AI 对话</td><td class="l">24</td></tr>
+<tr><td class="l">为什么现在的孩子会沉迷手机</td><td class="l">24</td></tr>
+<tr><td class="l">黄金什么时候会暴跌</td><td class="l">23</td></tr>
+<tr><td class="l">沪深两市成交额突破 1 万亿元</td><td class="l">22</td></tr>
+<tr><td class="l">明白什么道理后你就不再焦虑了</td><td class="l">22</td></tr>
+</table>
+<p><strong>形状：</strong> 钱（黄金两条、成交额）与"认知"并列。注意"黄金什么时候会大跌"和"黄金什么时候会暴跌"是两条独立的榜上话题——<strong>同一个焦虑，被问了两遍</strong>。</p>
+<p><strong>诊断：</strong> 这是第三把尺子（τ）最典型的战场：<strong>价格是快钟，货币周期是慢钟</strong>。两条黄金话题合起来上榜 57 天，恰恰说明公众在用一个"按天"的问题，反复敲一个"按年"的对象。</p>
+<p><strong>一个可反驳的判断：</strong> 如果这两条话题的讨论能在事实层收敛（比如大家开始比实际利率、汇率），说明公众在升级；如果一年后仍然只是"什么时候大跌"，说明它本质上是情绪出口，不是分析。→ 全年看，它没有收敛。</p>
+
+<h3 id="sec6-4">6.4　Q3：一个事件吃掉半个季度（2026-04-16 ~ 2026-07-15，90 天）</h3>
+<table class="nat">
+<tr><th class="l">话题</th><th class="l">上榜天数</th></tr>
+<tr><td class="l">速览中东危局 40 小时</td><td class="l">43</td></tr>
+<tr><td class="l">以色列宣布袭击伊朗</td><td class="l">41</td></tr>
+<tr><td class="l">伊朗局势</td><td class="l">40</td></tr>
+<tr><td class="l">美以袭击伊朗</td><td class="l">40</td></tr>
+<tr><td class="l">伊朗会不会成为下一个伊拉克</td><td class="l">40</td></tr>
+<tr><td class="l">你的低成本爱好是什么</td><td class="l">15</td></tr>
+<tr><td class="l">高考数据通</td><td class="l">15</td></tr>
+<tr><td class="l">认知水平高的人有什么特征</td><td class="l">13</td></tr>
+<tr><td class="l">高考分数排名</td><td class="l">13</td></tr>
+<tr><td class="l">如何看待西安市的前景</td><td class="l">12</td></tr>
+</table>
+<p><strong>形状：</strong> 前五名是同一个事件的五种问法，合计 204 个话题日。<strong>这不是"五个热点"，这是"一个热点的五次呼吸"。</strong></p>
+<p><strong>诊断：</strong> 这正是第二把尺子（记住）的最佳样本：平台必须把同一件事切成不同的问题，才能持续供给"新的入口"。用户以为自己在看五件事，其实在看一件事的五个切面。</p>
+<p>同时，第六把尺子（临界）在这里要谨慎：<strong>战争"看起来像"质变，但大多数升级并没有越过不可逆的门槛。</strong> 三个信号里，"什么在变"常常命中，"宏观更好用"却很少命中——所以正确的说法是"烈度上升"，不是"换了一个时代"。</p>
+<p><strong>一个可反驳的判断：</strong> 若后续半年该地区的政治结构、边界、联盟关系没有发生不可逆变化，则"这只是烈度波动"成立。→ 截至材料截止日（2026 年 10 月），没有出现可核实的结构性重排。</p>
+
+<h3 id="sec6-5">6.5　Q4：仪式、结算与余震（2026-07-16 ~ 2026-10-16，70 天）</h3>
+<table class="nat">
+<tr><th class="l">话题</th><th class="l">上榜天数</th></tr>
+<tr><td class="l">2026 名古屋亚运会</td><td class="l">18</td></tr>
+<tr><td class="l">2026 国庆</td><td class="l">16</td></tr>
+<tr><td class="l">A 股</td><td class="l">12</td></tr>
+<tr><td class="l">工作中到底能闯多大的祸</td><td class="l">12</td></tr>
+<tr><td class="l">世界最伟大的水果</td><td class="l">11</td></tr>
+<tr><td class="l">为什么空心人越来越多</td><td class="l">11</td></tr>
+<tr><td class="l">国庆节</td><td class="l">11</td></tr>
+<tr><td class="l">电影《八仙！》热映</td><td class="l">9</td></tr>
+<tr><td class="l">油价</td><td class="l">8</td></tr>
+<tr><td class="l">东北为何成为低物价天堂</td><td class="l">8</td></tr>
+</table>
+<p><strong>形状：</strong> 仪式（亚运、国庆两条）在前，结算（A 股、油价）在后，中间夹着"空心人"这种向内的话题。</p>
+<p><strong>诊断：</strong> 仪式性事件的共同点是<strong>日期确定</strong>——它们不需要"发生意外"就能上榜。这提示一件事：<strong>热搜并不是"什么重要"的度量，它至少混入了"什么有确定日期"。</strong></p>
+<p><strong>一个可反驳的判断：</strong> 如果明年的亚运、国庆仍然占据同等位置，说明"日期效应"是稳定的；如果不再出现，说明今年的位置来自具体的成绩或争议，而非日历。</p>
+
+<h3 id="sec6-6">6.6　把四个季度叠起来看：三种时间</h3>
+<p>四季并列，最清楚的一件事是：<strong>榜上同时跑着三种时间。</strong></p>
+<table class="nat">
+<tr><th class="l">时间类型</th><th class="l">代表话题</th><th class="l">它的周期</th><th class="l">它为什么上榜</th></tr>
+<tr><td class="l">恒久型</td><td class="l">低成本爱好、成长、认知、松弛感</td><td class="l">多年</td><td class="l">因为一直没解决</td></tr>
+<tr><td class="l">事件型</td><td class="l">中东、黄金、A 股、AI</td><td class="l">数周至数月</td><td class="l">因为有新进展</td></tr>
+<tr><td class="l">日历型</td><td class="l">高考、亚运、国庆</td><td class="l">一年一次</td><td class="l">因为日期到了</td></tr>
+</table>
+<p>三种时间混在同一张榜上，就产生了一个后果：<strong>你没法用"上榜天数"直接比较它们的重要性。</strong> 恒久型话题天然占便宜（它天天都在），日历型话题天然吃亏（它只热两周）。</p>
+<div class="box"><p><strong>这就是为什么本书反复说"上榜天数只是代理变量"。</strong> 它测的是"被讨论的持久度"，不是"重要性"。真正重要的东西，可能是那个只上榜两天、却改变了十年的事——只是它不在这份数据里。</p></div>
+
+<h3 id="sec6-7">6.7　一句话带走</h3>
+<div class="box"><p><strong>季度复盘的价值，不是总结"这一年发生了什么"，而是看清"注意力被什么形状的东西占住了"——是一个事件、一种焦虑，还是一张日历。</strong></p></div>

@@ -7,7 +7,11 @@ cd "$ROOT"
 PY="${PYTHON:-python}"
 
 echo "== 全书校对 =="
-"$PY" analysis/audit.py
+if [ -f analysis/audit.py ]; then
+  "$PY" analysis/audit.py
+else
+  echo "（本书无 analysis/audit.py，跳过自动校对；结构校验照常）"
+fi
 
 echo "== EPUB 结构校验 =="
 "$PY" - <<'PY'

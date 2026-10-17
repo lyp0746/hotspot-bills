@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" width="1000" height="720" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif">
+<rect width="1000" height="720" fill="#ffffff"/>
+<text x="500.0" y="40" text-anchor="middle" font-size="24" font-weight="bold" fill="#1a1a1a">六个核心：它们不是并列的，而是耦合的</text>
+<text x="500.0" y="68" text-anchor="middle" font-size="14" fill="#666">前五个回答“如何取舍”；临界回答“取舍在哪一刻换了规则”</text>
+<circle cx="500" cy="400" r="86" fill="#fff8e1" stroke="#b8862f" stroke-width="2.5"/>
+<text x="500" y="394" text-anchor="middle" font-size="30" font-weight="bold" fill="#b8862f">临界</text>
+<text x="500" y="428" text-anchor="middle" font-size="14" fill="#666">量变 → 质变</text>
+<text x="500" y="450" text-anchor="middle" font-size="12" fill="#666">第六个核心</text>
+<line x1="262" y1="323" x2="413" y2="372" stroke="#2f6db0" stroke-width="2" opacity="0.55"/>
+<circle cx="262" cy="323" r="66" fill="#2f6db0" opacity="0.10" stroke="#2f6db0" stroke-width="1.8"/>
+<text x="262" y="317" text-anchor="middle" font-size="22" font-weight="bold" fill="#2f6db0">看见</text>
+<text x="262" y="343" text-anchor="middle" font-size="13" fill="#666">区分</text>
+<text x="381" y="355" text-anchor="middle" font-size="12" fill="#2f6db0">尺度决定“哪个层级”出现</text>
+<line x1="500" y1="150" x2="500" y2="308" stroke="#2e7d32" stroke-width="2" opacity="0.55"/>
+<circle cx="500" cy="150" r="66" fill="#2e7d32" opacity="0.10" stroke="#2e7d32" stroke-width="1.8"/>
+<text x="500" y="144" text-anchor="middle" font-size="22" font-weight="bold" fill="#2e7d32">记住</text>
+<text x="500" y="170" text-anchor="middle" font-size="13" fill="#666">容量</text>
+<text x="500" y="269" text-anchor="middle" font-size="12" fill="#2e7d32">容量压力 → 表示坍塌</text>
+<line x1="738" y1="323" x2="587" y2="372" stroke="#ef6c00" stroke-width="2" opacity="0.55"/>
+<circle cx="738" cy="323" r="66" fill="#ef6c00" opacity="0.10" stroke="#ef6c00" stroke-width="1.8"/>
+<text x="738" y="317" text-anchor="middle" font-size="22" font-weight="bold" fill="#ef6c00">跟上</text>
+<text x="738" y="343" text-anchor="middle" font-size="13" fill="#666">时间</text>
+<text x="619" y="355" text-anchor="middle" font-size="12" fill="#ef6c00">τ→1 是临界慢化</text>
+<line x1="647" y1="602" x2="554" y2="474" stroke="#8e5a9c" stroke-width="2" opacity="0.55"/>
+<circle cx="647" cy="602" r="66" fill="#8e5a9c" opacity="0.10" stroke="#8e5a9c" stroke-width="1.8"/>
+<text x="647" y="596" text-anchor="middle" font-size="22" font-weight="bold" fill="#8e5a9c">选择</text>
+<text x="647" y="622" text-anchor="middle" font-size="13" fill="#666">C-A-T</text>
+<text x="573" y="495" text-anchor="middle" font-size="12" fill="#8e5a9c">相变时“换让出顶点”</text>
+<line x1="353" y1="602" x2="446" y2="474" stroke="#c62828" stroke-width="2" opacity="0.55"/>
+<circle cx="353" cy="602" r="66" fill="#c62828" opacity="0.10" stroke="#c62828" stroke-width="1.8"/>
+<text x="353" y="596" text-anchor="middle" font-size="22" font-weight="bold" fill="#c62828">讲述</text>
+<text x="353" y="622" text-anchor="middle" font-size="13" fill="#666">置信度</text>
+<text x="427" y="495" text-anchor="middle" font-size="12" fill="#c62828">质变与否取决于观察者尺度</text>
+<text x="500" y="692" text-anchor="middle" font-size="13" fill="#666">临界不是“第六个并列项”，而是前五个共同作用时出现的那道“门槛”。</text>
+</svg>

@@ -34,7 +34,9 @@ DATA_DIR = os.path.join(HERE, "data")
 FRONT = [("前言　为什么热搜需要一张账单", "front_intro.html", "intro"),
          ("怎么用这本书", "front_howto.html", "howto")]
 BACK = [("结语　看完热搜之后", "back_epilogue.html", "epilogue"),
-        ("本系列（七本书）", "back_series.html", "series"),
+        ("后记　写在下一次热搜之前", "back_afterword.html", "afterword"),
+        ("数据、许可与如何引用", "back_data.html", "bdata"),
+        ("本系列（六本专著 + 两本通俗读本）", "back_series.html", "series"),
         ("附录　诊断卡模板 · 速查 · 采集脚本 · 登记", "appendix_a.html", "apxA")]
 
 

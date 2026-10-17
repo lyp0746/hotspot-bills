@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 430" width="820" height="430" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif">
+<rect width="820" height="430" fill="#ffffff"/>
+<text x="410.0" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">七十一张诊断卡的分布</text>
+<text x="410.0" y="62" text-anchor="middle" font-size="14" fill="#666666">案例不是按热度挑的，是按“能不能诊断”挑的</text>
+<text x="106" y="315" text-anchor="end" font-size="13" fill="#1a1a1a">宏观与市场</text>
+<rect x="120" y="296" width="600.0" height="26" fill="#2f6db0" opacity="0.85"/>
+<text x="728.0" y="315" font-size="12" fill="#2f6db0" font-weight="bold">26</text>
+<text x="106" y="263" text-anchor="end" font-size="13" fill="#1a1a1a">生活与注意力</text>
+<rect x="120" y="244" width="276.9" height="26" fill="#2f6db0" opacity="0.85"/>
+<text x="404.9" y="263" font-size="12" fill="#2f6db0" font-weight="bold">12</text>
+<text x="106" y="211" text-anchor="end" font-size="13" fill="#1a1a1a">制度与信任</text>
+<rect x="120" y="192" width="230.8" height="26" fill="#2f6db0" opacity="0.85"/>
+<text x="358.8" y="211" font-size="12" fill="#2f6db0" font-weight="bold">10</text>
+<text x="106" y="159" text-anchor="end" font-size="13" fill="#1a1a1a">身体与城市</text>
+<rect x="120" y="140" width="276.9" height="26" fill="#2f6db0" opacity="0.85"/>
+<text x="404.9" y="159" font-size="12" fill="#2f6db0" font-weight="bold">12</text>
+<text x="106" y="107" text-anchor="end" font-size="13" fill="#1a1a1a">长卡</text>
+<rect x="120" y="88" width="115.4" height="26" fill="#2f6db0" opacity="0.85"/>
+<text x="243.4" y="107" font-size="12" fill="#2f6db0" font-weight="bold">5</text>
+<line x1="120" y1="350" x2="720" y2="350" stroke="#333" stroke-width="1.6"/>
+<text x="410.0" y="414" text-anchor="middle" font-size="12" fill="#666666">总量 65 张标准卡 + 5 张长卡 + 30 条一句话诊断。</text>
+</svg>

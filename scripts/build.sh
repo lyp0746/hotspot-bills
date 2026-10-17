@@ -6,8 +6,6 @@ cd "$ROOT"
 [ -f .env.build ] && . ./.env.build
 PY="${PYTHON:-python}"
 
-echo "== 0/5 书稿 Markdown -> HTML =="
-"$PY" analysis/md2book.py
 
 echo "== 1/5 插图与封面 =="
 "$PY" analysis/make_figures.py

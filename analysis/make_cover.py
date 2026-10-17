@@ -58,7 +58,7 @@ text{{font-family:'Microsoft YaHei','SimHei',Arial,sans-serif;}}
 <text x="80" y="176" class="eng">THE BILL OF THE HOT LIST</text>
 <text x="80" y="300" class="ttl">热点的账单</text>
 <line x1="84" y1="344" x2="720" y2="344" class="rule"/>
-<text x="84" y="396" class="sub">用五个核心，</text>
+<text x="84" y="396" class="sub">用六个核心，</text>
 <text x="84" y="440" class="sub">诊断过去一年的热搜与争论</text>
 <text x="80" y="1230" class="au">李毅芃　著</text>
 <text x="80" y="1282" class="eng">Five Lenses on a Year of Hot Debates</text>

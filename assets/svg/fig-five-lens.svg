@@ -1,66 +1,78 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" width="960" height="560" font-family="Microsoft YaHei, PingFang SC, SimHei, sans-serif">
 <rect width="960" height="560" fill="#ffffff"/>
-<text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">五核诊断法：五把尺子，量一个热点</text>
+<text x="480" y="38" text-anchor="middle" font-size="22" font-weight="bold" fill="#1a1a1a">六核诊断法：六把尺子，量一个热点</text>
 <text x="480" y="62" text-anchor="middle" font-size="14" fill="#666">每一把都不问“谁对”，只问“卡在哪”</text>
-<rect x="60" y="100" width="168" height="380" rx="8" fill="#fbfcfe" stroke="#2f6db0" stroke-width="1.4"/>
-<rect x="60" y="100" width="168" height="64" rx="8" fill="#2f6db0" opacity="0.15"/>
-<text x="144.0" y="142" text-anchor="middle" font-size="24" fill="#2f6db0" font-weight="bold">看见</text>
-<text x="144.0" y="200" text-anchor="middle" font-size="14" fill="#666" font-weight="normal">区分</text>
-<line x1="144" y1="240" x2="144" y2="400" stroke="#2f6db0" stroke-width="4"/>
-<line x1="130.0" y1="250" x2="158.0" y2="250" stroke="#2f6db0" stroke-width="2"/>
-<line x1="130.0" y1="278" x2="158.0" y2="278" stroke="#2f6db0" stroke-width="2"/>
-<line x1="130.0" y1="306" x2="158.0" y2="306" stroke="#2f6db0" stroke-width="2"/>
-<line x1="130.0" y1="334" x2="158.0" y2="334" stroke="#2f6db0" stroke-width="2"/>
-<line x1="130.0" y1="362" x2="158.0" y2="362" stroke="#2f6db0" stroke-width="2"/>
-<line x1="130.0" y1="390" x2="158.0" y2="390" stroke="#2f6db0" stroke-width="2"/>
-<text x="144.0" y="445" text-anchor="middle" font-size="13" fill="#1a1a1a">在划什么线？谁被排除？</text>
-<rect x="238" y="100" width="168" height="380" rx="8" fill="#fbfcfe" stroke="#2e7d32" stroke-width="1.4"/>
-<rect x="238" y="100" width="168" height="64" rx="8" fill="#2e7d32" opacity="0.15"/>
-<text x="322.0" y="142" text-anchor="middle" font-size="24" fill="#2e7d32" font-weight="bold">记住</text>
-<text x="322.0" y="200" text-anchor="middle" font-size="14" fill="#666" font-weight="normal">容量 / 遗忘</text>
-<line x1="322" y1="240" x2="322" y2="400" stroke="#2e7d32" stroke-width="4"/>
-<line x1="308.0" y1="250" x2="336.0" y2="250" stroke="#2e7d32" stroke-width="2"/>
-<line x1="308.0" y1="278" x2="336.0" y2="278" stroke="#2e7d32" stroke-width="2"/>
-<line x1="308.0" y1="306" x2="336.0" y2="306" stroke="#2e7d32" stroke-width="2"/>
-<line x1="308.0" y1="334" x2="336.0" y2="334" stroke="#2e7d32" stroke-width="2"/>
-<line x1="308.0" y1="362" x2="336.0" y2="362" stroke="#2e7d32" stroke-width="2"/>
-<line x1="308.0" y1="390" x2="336.0" y2="390" stroke="#2e7d32" stroke-width="2"/>
-<text x="322.0" y="445" text-anchor="middle" font-size="13" fill="#1a1a1a">被压成什么标签？丢了什么？</text>
-<rect x="416" y="100" width="168" height="380" rx="8" fill="#fbfcfe" stroke="#ef6c00" stroke-width="1.4"/>
-<rect x="416" y="100" width="168" height="64" rx="8" fill="#ef6c00" opacity="0.15"/>
-<text x="500.0" y="142" text-anchor="middle" font-size="24" fill="#ef6c00" font-weight="bold">跟上</text>
-<text x="500.0" y="200" text-anchor="middle" font-size="14" fill="#666" font-weight="normal">时间错配 τ</text>
-<line x1="500" y1="240" x2="500" y2="400" stroke="#ef6c00" stroke-width="4"/>
-<line x1="486.0" y1="250" x2="514.0" y2="250" stroke="#ef6c00" stroke-width="2"/>
-<line x1="486.0" y1="278" x2="514.0" y2="278" stroke="#ef6c00" stroke-width="2"/>
-<line x1="486.0" y1="306" x2="514.0" y2="306" stroke="#ef6c00" stroke-width="2"/>
-<line x1="486.0" y1="334" x2="514.0" y2="334" stroke="#ef6c00" stroke-width="2"/>
-<line x1="486.0" y1="362" x2="514.0" y2="362" stroke="#ef6c00" stroke-width="2"/>
-<line x1="486.0" y1="390" x2="514.0" y2="390" stroke="#ef6c00" stroke-width="2"/>
-<text x="500.0" y="445" text-anchor="middle" font-size="13" fill="#1a1a1a">快钟 vs 慢钟，差多少？</text>
-<rect x="594" y="100" width="168" height="380" rx="8" fill="#fbfcfe" stroke="#b8862f" stroke-width="1.4"/>
-<rect x="594" y="100" width="168" height="64" rx="8" fill="#b8862f" opacity="0.15"/>
-<text x="678.0" y="142" text-anchor="middle" font-size="24" fill="#b8862f" font-weight="bold">选择</text>
-<text x="678.0" y="200" text-anchor="middle" font-size="14" fill="#666" font-weight="normal">C-A-T 三角</text>
-<line x1="678" y1="240" x2="678" y2="400" stroke="#b8862f" stroke-width="4"/>
-<line x1="664.0" y1="250" x2="692.0" y2="250" stroke="#b8862f" stroke-width="2"/>
-<line x1="664.0" y1="278" x2="692.0" y2="278" stroke="#b8862f" stroke-width="2"/>
-<line x1="664.0" y1="306" x2="692.0" y2="306" stroke="#b8862f" stroke-width="2"/>
-<line x1="664.0" y1="334" x2="692.0" y2="334" stroke="#b8862f" stroke-width="2"/>
-<line x1="664.0" y1="362" x2="692.0" y2="362" stroke="#b8862f" stroke-width="2"/>
-<line x1="664.0" y1="390" x2="692.0" y2="390" stroke="#b8862f" stroke-width="2"/>
-<text x="678.0" y="445" text-anchor="middle" font-size="13" fill="#1a1a1a">要哪两样？让出哪一样？</text>
-<rect x="772" y="100" width="168" height="380" rx="8" fill="#fbfcfe" stroke="#8e5a9c" stroke-width="1.4"/>
-<rect x="772" y="100" width="168" height="64" rx="8" fill="#8e5a9c" opacity="0.15"/>
-<text x="856.0" y="142" text-anchor="middle" font-size="24" fill="#8e5a9c" font-weight="bold">讲述</text>
-<text x="856.0" y="200" text-anchor="middle" font-size="14" fill="#666" font-weight="normal">置信度分配</text>
-<line x1="856" y1="240" x2="856" y2="400" stroke="#8e5a9c" stroke-width="4"/>
-<line x1="842.0" y1="250" x2="870.0" y2="250" stroke="#8e5a9c" stroke-width="2"/>
-<line x1="842.0" y1="278" x2="870.0" y2="278" stroke="#8e5a9c" stroke-width="2"/>
-<line x1="842.0" y1="306" x2="870.0" y2="306" stroke="#8e5a9c" stroke-width="2"/>
-<line x1="842.0" y1="334" x2="870.0" y2="334" stroke="#8e5a9c" stroke-width="2"/>
-<line x1="842.0" y1="362" x2="870.0" y2="362" stroke="#8e5a9c" stroke-width="2"/>
-<line x1="842.0" y1="390" x2="870.0" y2="390" stroke="#8e5a9c" stroke-width="2"/>
-<text x="856.0" y="445" text-anchor="middle" font-size="13" fill="#1a1a1a">哪一层？抢位置还是争事实？</text>
-<text x="480.0" y="536" text-anchor="middle" font-size="14" fill="#666" font-weight="normal">五个问题问完，一个热点就变成一张有结构的图。</text>
+<rect x="30" y="100" width="146" height="380" rx="8" fill="#fbfcfe" stroke="#2f6db0" stroke-width="1.4"/>
+<rect x="30" y="100" width="146" height="64" rx="8" fill="#2f6db0" opacity="0.15"/>
+<text x="103.0" y="142" text-anchor="middle" font-size="24" fill="#2f6db0" font-weight="bold">看见</text>
+<text x="103.0" y="200" text-anchor="middle" font-size="14" fill="#666" font-weight="normal">区分</text>
+<line x1="103" y1="240" x2="103" y2="400" stroke="#2f6db0" stroke-width="4"/>
+<line x1="89.0" y1="250" x2="117.0" y2="250" stroke="#2f6db0" stroke-width="2"/>
+<line x1="89.0" y1="278" x2="117.0" y2="278" stroke="#2f6db0" stroke-width="2"/>
+<line x1="89.0" y1="306" x2="117.0" y2="306" stroke="#2f6db0" stroke-width="2"/>
+<line x1="89.0" y1="334" x2="117.0" y2="334" stroke="#2f6db0" stroke-width="2"/>
+<line x1="89.0" y1="362" x2="117.0" y2="362" stroke="#2f6db0" stroke-width="2"/>
+<line x1="89.0" y1="390" x2="117.0" y2="390" stroke="#2f6db0" stroke-width="2"/>
+<text x="103.0" y="445" text-anchor="middle" font-size="14" fill="#1a1a1a">在划什么线？</text>
+<rect x="184" y="100" width="146" height="380" rx="8" fill="#fbfcfe" stroke="#2e7d32" stroke-width="1.4"/>
+<rect x="184" y="100" width="146" height="64" rx="8" fill="#2e7d32" opacity="0.15"/>
+<text x="257.0" y="142" text-anchor="middle" font-size="24" fill="#2e7d32" font-weight="bold">记住</text>
+<text x="257.0" y="200" text-anchor="middle" font-size="14" fill="#666" font-weight="normal">容量 / 遗忘</text>
+<line x1="257" y1="240" x2="257" y2="400" stroke="#2e7d32" stroke-width="4"/>
+<line x1="243.0" y1="250" x2="271.0" y2="250" stroke="#2e7d32" stroke-width="2"/>
+<line x1="243.0" y1="278" x2="271.0" y2="278" stroke="#2e7d32" stroke-width="2"/>
+<line x1="243.0" y1="306" x2="271.0" y2="306" stroke="#2e7d32" stroke-width="2"/>
+<line x1="243.0" y1="334" x2="271.0" y2="334" stroke="#2e7d32" stroke-width="2"/>
+<line x1="243.0" y1="362" x2="271.0" y2="362" stroke="#2e7d32" stroke-width="2"/>
+<line x1="243.0" y1="390" x2="271.0" y2="390" stroke="#2e7d32" stroke-width="2"/>
+<text x="257.0" y="445" text-anchor="middle" font-size="14" fill="#1a1a1a">丢了什么？</text>
+<rect x="338" y="100" width="146" height="380" rx="8" fill="#fbfcfe" stroke="#ef6c00" stroke-width="1.4"/>
+<rect x="338" y="100" width="146" height="64" rx="8" fill="#ef6c00" opacity="0.15"/>
+<text x="411.0" y="142" text-anchor="middle" font-size="24" fill="#ef6c00" font-weight="bold">跟上</text>
+<text x="411.0" y="200" text-anchor="middle" font-size="14" fill="#666" font-weight="normal">时间错配 τ</text>
+<line x1="411" y1="240" x2="411" y2="400" stroke="#ef6c00" stroke-width="4"/>
+<line x1="397.0" y1="250" x2="425.0" y2="250" stroke="#ef6c00" stroke-width="2"/>
+<line x1="397.0" y1="278" x2="425.0" y2="278" stroke="#ef6c00" stroke-width="2"/>
+<line x1="397.0" y1="306" x2="425.0" y2="306" stroke="#ef6c00" stroke-width="2"/>
+<line x1="397.0" y1="334" x2="425.0" y2="334" stroke="#ef6c00" stroke-width="2"/>
+<line x1="397.0" y1="362" x2="425.0" y2="362" stroke="#ef6c00" stroke-width="2"/>
+<line x1="397.0" y1="390" x2="425.0" y2="390" stroke="#ef6c00" stroke-width="2"/>
+<text x="411.0" y="445" text-anchor="middle" font-size="14" fill="#1a1a1a">差多少？</text>
+<rect x="492" y="100" width="146" height="380" rx="8" fill="#fbfcfe" stroke="#b8862f" stroke-width="1.4"/>
+<rect x="492" y="100" width="146" height="64" rx="8" fill="#b8862f" opacity="0.15"/>
+<text x="565.0" y="142" text-anchor="middle" font-size="24" fill="#b8862f" font-weight="bold">选择</text>
+<text x="565.0" y="200" text-anchor="middle" font-size="14" fill="#666" font-weight="normal">C-A-T 三角</text>
+<line x1="565" y1="240" x2="565" y2="400" stroke="#b8862f" stroke-width="4"/>
+<line x1="551.0" y1="250" x2="579.0" y2="250" stroke="#b8862f" stroke-width="2"/>
+<line x1="551.0" y1="278" x2="579.0" y2="278" stroke="#b8862f" stroke-width="2"/>
+<line x1="551.0" y1="306" x2="579.0" y2="306" stroke="#b8862f" stroke-width="2"/>
+<line x1="551.0" y1="334" x2="579.0" y2="334" stroke="#b8862f" stroke-width="2"/>
+<line x1="551.0" y1="362" x2="579.0" y2="362" stroke="#b8862f" stroke-width="2"/>
+<line x1="551.0" y1="390" x2="579.0" y2="390" stroke="#b8862f" stroke-width="2"/>
+<text x="565.0" y="445" text-anchor="middle" font-size="14" fill="#1a1a1a">让出哪一样？</text>
+<rect x="646" y="100" width="146" height="380" rx="8" fill="#fbfcfe" stroke="#8e5a9c" stroke-width="1.4"/>
+<rect x="646" y="100" width="146" height="64" rx="8" fill="#8e5a9c" opacity="0.15"/>
+<text x="719.0" y="142" text-anchor="middle" font-size="24" fill="#8e5a9c" font-weight="bold">讲述</text>
+<text x="719.0" y="200" text-anchor="middle" font-size="14" fill="#666" font-weight="normal">置信度分配</text>
+<line x1="719" y1="240" x2="719" y2="400" stroke="#8e5a9c" stroke-width="4"/>
+<line x1="705.0" y1="250" x2="733.0" y2="250" stroke="#8e5a9c" stroke-width="2"/>
+<line x1="705.0" y1="278" x2="733.0" y2="278" stroke="#8e5a9c" stroke-width="2"/>
+<line x1="705.0" y1="306" x2="733.0" y2="306" stroke="#8e5a9c" stroke-width="2"/>
+<line x1="705.0" y1="334" x2="733.0" y2="334" stroke="#8e5a9c" stroke-width="2"/>
+<line x1="705.0" y1="362" x2="733.0" y2="362" stroke="#8e5a9c" stroke-width="2"/>
+<line x1="705.0" y1="390" x2="733.0" y2="390" stroke="#8e5a9c" stroke-width="2"/>
+<text x="719.0" y="445" text-anchor="middle" font-size="14" fill="#1a1a1a">在哪一层？</text>
+<rect x="800" y="100" width="146" height="380" rx="8" fill="#fbfcfe" stroke="#c62828" stroke-width="1.4"/>
+<rect x="800" y="100" width="146" height="64" rx="8" fill="#c62828" opacity="0.15"/>
+<text x="873.0" y="142" text-anchor="middle" font-size="24" fill="#c62828" font-weight="bold">临界</text>
+<text x="873.0" y="200" text-anchor="middle" font-size="14" fill="#666" font-weight="normal">相变 / 门槛</text>
+<line x1="873" y1="240" x2="873" y2="400" stroke="#c62828" stroke-width="4"/>
+<line x1="859.0" y1="250" x2="887.0" y2="250" stroke="#c62828" stroke-width="2"/>
+<line x1="859.0" y1="278" x2="887.0" y2="278" stroke="#c62828" stroke-width="2"/>
+<line x1="859.0" y1="306" x2="887.0" y2="306" stroke="#c62828" stroke-width="2"/>
+<line x1="859.0" y1="334" x2="887.0" y2="334" stroke="#c62828" stroke-width="2"/>
+<line x1="859.0" y1="362" x2="887.0" y2="362" stroke="#c62828" stroke-width="2"/>
+<line x1="859.0" y1="390" x2="887.0" y2="390" stroke="#c62828" stroke-width="2"/>
+<text x="873.0" y="445" text-anchor="middle" font-size="14" fill="#1a1a1a">还是它吗？</text>
+<text x="480.0" y="536" text-anchor="middle" font-size="14" fill="#666" font-weight="normal">六个问题问完，一个热点就变成一张有结构的图。</text>
 </svg>

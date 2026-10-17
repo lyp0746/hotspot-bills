@@ -34,13 +34,14 @@ def save(name, parts):
 
 def fig_lenses():
     W, H = 960, 560
-    s = head(W, H, "五核诊断法：五把尺子，量一个热点", "每一把都不问“谁对”，只问“卡在哪”")
-    items = [("看见", "区分", "在划什么线？谁被排除？", BLU),
-             ("记住", "容量 / 遗忘", "被压成什么标签？丢了什么？", GRN),
-             ("跟上", "时间错配 τ", "快钟 vs 慢钟，差多少？", ORG),
-             ("选择", "C-A-T 三角", "要哪两样？让出哪一样？", GLD),
-             ("讲述", "置信度分配", "哪一层？抢位置还是争事实？", PNK)]
-    x0, y0, cw, ch, gap = 60, 100, 168, 380, 10
+    s = head(W, H, "六核诊断法：六把尺子，量一个热点", "每一把都不问“谁对”，只问“卡在哪”")
+    items = [("看见", "区分", "在划什么线？", BLU),
+             ("记住", "容量 / 遗忘", "丢了什么？", GRN),
+             ("跟上", "时间错配 τ", "差多少？", ORG),
+             ("选择", "C-A-T 三角", "让出哪一样？", GLD),
+             ("讲述", "置信度分配", "在哪一层？", PNK),
+             ("临界", "相变 / 门槛", "还是它吗？", RED)]
+    x0, y0, cw, ch, gap = 30, 100, 146, 380, 8
     for i, (name, role, q, col) in enumerate(items):
         x = x0 + i * (cw + gap)
         s.append(box(x, y0, cw, ch, "#fbfcfe", col))
@@ -52,8 +53,8 @@ def fig_lenses():
         for k in range(6):
             yy = y0 + 150 + k * 28
             s.append(f'<line x1="{x+cw/2-14}" y1="{yy}" x2="{x+cw/2+14}" y2="{yy}" stroke="{col}" stroke-width="2"/>')
-        s.append(f'<text x="{x+cw/2}" y="{y0+345}" text-anchor="middle" font-size="13" fill="{INK}">{q}</text>')
-    s.append(txt(W / 2, H - 24, "五个问题问完，一个热点就变成一张有结构的图。", 14, GRY))
+        s.append(f'<text x="{x+cw/2}" y="{y0+345}" text-anchor="middle" font-size="14" fill="{INK}">{q}</text>')
+    s.append(txt(W / 2, H - 24, "六个问题问完，一个热点就变成一张有结构的图。", 14, GRY))
     save("fig-five-lens", s)
 
 
@@ -122,9 +123,40 @@ def fig_zhihu_vs_x():
     save("fig-zhihu-vs-x", s)
 
 
+def fig_quarters():
+    W, H = 960, 470
+    s = head(W, H, "四个季度：碎片化上升，集中度反复",
+             "左：不同话题数（分散度）；右：前五名占比（集中度）。数据：知乎热榜存档")
+    Q = [("Q1", 487, 10.1), ("Q2", 572, 8.0), ("Q3", 1091, 9.4), ("Q4", 993, 4.0)]
+    # left panel
+    ox, oy, w, h = 90, 360, 380, 240
+    s.append(f'<line x1="{ox}" y1="{oy}" x2="{ox+w}" y2="{oy}" stroke="#333" stroke-width="1.6"/>')
+    s.append(f'<line x1="{ox}" y1="{oy}" x2="{ox}" y2="{oy-h}" stroke="#333" stroke-width="1.6"/>')
+    s.append(txt(ox + w / 2, oy + 34, "不同话题数", 13, GRY))
+    for i, (q, n, sh) in enumerate(Q):
+        bx = ox + 30 + i * 88
+        bh = n / 1200.0 * h
+        s.append(f'<rect x="{bx}" y="{oy-bh:.0f}" width="46" height="{bh:.0f}" fill="{BLU}" opacity="0.8"/>')
+        s.append(txt(bx + 23, oy - bh - 8, str(n), 12, BLU, weight="bold"))
+        s.append(txt(bx + 23, oy + 20, q, 13, INK))
+    # right panel
+    ox2 = 560
+    s.append(f'<line x1="{ox2}" y1="{oy}" x2="{ox2+w}" y2="{oy}" stroke="#333" stroke-width="1.6"/>')
+    s.append(f'<line x1="{ox2}" y1="{oy}" x2="{ox2}" y2="{oy-h}" stroke="#333" stroke-width="1.6"/>')
+    s.append(txt(ox2 + w / 2, oy + 34, "前五名占本季天数", 13, GRY))
+    for i, (q, n, sh) in enumerate(Q):
+        bx = ox2 + 30 + i * 88
+        bh = sh / 12.0 * h
+        s.append(f'<rect x="{bx}" y="{oy-bh:.0f}" width="46" height="{bh:.0f}" fill="{ORG}" opacity="0.85"/>')
+        s.append(txt(bx + 23, oy - bh - 8, f"{sh}%", 12, ORG, weight="bold"))
+        s.append(txt(bx + 23, oy + 20, q, 13, INK))
+    s.append(txt(W / 2, H - 22, "Q4 存档只有 70 天，因此它的低占比不能直接读成“更分散”。", 13, RED))
+    save("fig-quarters", s)
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
-    for f in [fig_lenses, fig_card, fig_clocks, fig_zhihu_vs_x]:
+    for f in [fig_lenses, fig_card, fig_clocks, fig_zhihu_vs_x, fig_quarters]:
         f()
     print("done")
 

@@ -33,7 +33,10 @@ with zipfile.ZipFile(out, 'w', zipfile.ZIP_DEFLATED) as z:
 PY
   echo "  + $BASE-markdown.zip"
 fi
-copy docs/DATA-SOURCES.md "$REL/数据来源与口径.md"
+copy README.md              "$REL/README.md"
+copy docs/RELEASE-NOTES.md   "$REL/修订说明.md"
+copy docs/DATA-GAPS.md       "$REL/数据缺口清单.md"
+copy docs/OPEN-CONTRIBUTION.md "$REL/欢迎补充数据.md"
 
 cat > "$REL/MANIFEST.txt" <<EOF
 $BASE — 发布包清单
@@ -48,6 +51,21 @@ cover.svg          封面
 数据来源与口径.md   数据来源、采集方式与局限
 明确不包含：analysis/ 脚本、data/ 原始数据、source/ 源文件、*.py。
 EOF
+
+# 清单自检：把目录中未列出的文件补进 MANIFEST（避免清单与实物不一致）
+"$PY" - "$REL" <<'PY'
+import os, sys
+rel = sys.argv[1]
+mf = os.path.join(rel, "MANIFEST.txt")
+text = open(mf, encoding="utf-8").read()
+missing = [f for f in sorted(os.listdir(rel)) if f != "MANIFEST.txt" and f not in text]
+if missing:
+    with open(mf, "a", encoding="utf-8") as f:
+        f.write("\n（自动补充：以下文件亦在本包内）\n")
+        for m in missing:
+            f.write("%-30s %s\n" % (m, "见文件本身"))
+PY
+
 BAD=$(find "$REL" -type f \( -name '*.py' -o -name '*.json' -o -name '*.xlsx' -o -name '*.csv' \) || true)
 [ -n "$BAD" ] && { echo "ERROR: 发布包含非发布内容："; echo "$BAD"; exit 1; }
 echo "== release/ 已生成 =="; ls -lh "$REL"
