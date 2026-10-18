@@ -31,7 +31,8 @@ CSS_DIR = os.path.join(HERE, "assets", "css")
 OUTPUT = os.path.join(HERE, "output")
 DATA_DIR = os.path.join(HERE, "data")
 
-FRONT = [("前言　为什么热搜需要一张账单", "front_intro.html", "intro"),
+FRONT = [("总纲　现实中不存在无限", "front_finitude.html", "finitude"),
+         ("前言　为什么热搜需要一张账单", "front_intro.html", "intro"),
          ("怎么用这本书", "front_howto.html", "howto")]
 BACK = [("结语　看完热搜之后", "back_epilogue.html", "epilogue"),
         ("后记　写在下一次热搜之前", "back_afterword.html", "afterword"),
