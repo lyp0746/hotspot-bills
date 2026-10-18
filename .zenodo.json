@@ -104,5 +104,6 @@
       "relation": "references",
       "scheme": "url"
     }
-  ]
+  ],
+  "version": "2026-10-19"
 }
