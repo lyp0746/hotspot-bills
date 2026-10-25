@@ -3,18 +3,20 @@ message: "If you use this work, please cite it as below. 若使用本作，请�
 type: book
 title: "热点的账单：用六个核心，诊断过去一年的热搜与争论 / The Bill of the Hot List: Six Lenses on a Year of Hot Debates"
 abstract: >-
-  本著作是系列的方法演示：用六个核心，把过去一年被反复讨论的公共事件做成一张张诊断卡。 核心主张：看懂一个热点，不是站对一边，而是看清它让出了什么。六把尺子（看见、记住、跟上、选择、讲述、临界）不问“谁对”，只问“卡在哪一层”。 结构与证据：18 章、100 页、8 幅图；71 张诊断卡（65 张标准卡、5 张长卡、30 条一句话诊断）全部来自真实公开存档（338 天、2875 个话题；X 趋势 81 个“国家—日”采样），另设季度复盘、方法自检、十个反例与 90 分钟工作坊。 诚实的纪律：每张卡标证据等级与可反驳条件；数据缺口与口径问题逐条写明；明确诊断的是讨论的结构，不是事件的对错。 边界：案例会过期，方法不会；它不预测、不判决，也不替代一手来源。 版本：2026-10-18，100 页，18 章，8 图，71 张卡；采集与统计脚本开源，内容 CC BY 4.0，代码 MIT。
-  Abstract (English). This is the series' methodological demonstration: six cores turn a year of contested public events into diagnostic cards. Core thesis: understanding a hot topic is not about taking the right side but about seeing what it gives up; six lenses ask not “who is right” but “on which layer is the argument stuck”. Structure and evidence: 18 chapters, 100 pages, 8 figures; 71 diagnostic cards (65 standard, 5 long-form, 30 one-line) drawn from real public archives — 338 days and 2,875 topics from Zhihu, plus 81 country–day samples of X trends — together with a quarterly review, a method self-audit, ten counterexamples and a 90-minute workshop. Discipline: every card carries an evidence grade and a refutation condition; data gaps and measurement caveats are stated; the object of diagnosis is the structure of the argument, not the facts of the case. Boundaries: cases expire, the method does not; it neither predicts nor judges, and never replaces primary sources. Edition: 2026-10-18, 100 pages, 18 chapters, 8 figures, 71 cards.
+  本著作是系列的方法演示：用六个核心，把过去一年被反复讨论的公共事件做成一张张诊断卡。 核心主张：看懂一个热点，不是站对一边，而是看清它让出了什么。六把尺子（看见、记住、跟上、选择、讲述、临界）不问“谁对”，只问“卡在哪一层”。 结构与证据：19 章、113 页、8 幅图；72 张诊断卡（26 张数据主卡 + 3 张补卡 + 34 张主题卡 + 5 张长卡 + 4 张法国卡，另加 30 条一句话诊断）全部来自真实公开存档（338 天、2875 个话题；X 趋势 81 个“国家—日”采样），另设季度复盘、方法自检、十个反例与 90 分钟工作坊。 诚实的纪律：每张卡标证据等级与可反驳条件；数据缺口与口径问题逐条写明；明确诊断的是讨论的结构，不是事件的对错。 边界：案例会过期，方法不会；它不预测、不判决，也不替代一手来源。 版本：2026-10-25，113 页，19 章，8 图，72 张卡；采集与统计脚本开源，内容 CC BY 4.0，代码 MIT。
+  Abstract (English). This is the series' methodological demonstration: six cores turn a year of contested public events into diagnostic cards. Core thesis: understanding a hot topic is not about taking the right side but about seeing what it gives up; six lenses ask not “who is right” but “on which layer is the argument stuck”. Structure and evidence: 19 chapters, 113 pages, 8 figures; 72 diagnostic cards (26 data + 3 supplementary + 34 thematic + 5 long-form + 4 France, plus 30 one-line) drawn from real public archives — 338 days and 2,875 topics from Zhihu, plus 81 country–day samples of X trends — together with a quarterly review, a method self-audit, ten counterexamples and a 90-minute workshop. Discipline: every card carries an evidence grade and a refutation condition; data gaps and measurement caveats are stated; the object of diagnosis is the structure of the argument, not the facts of the case. Boundaries: cases expire, the method does not; it neither predicts nor judges, and never replaces primary sources. Edition: 2026-10-25, 113 pages, 19 chapters, 8 figures, 72 cards. This edition fixes the five-core/six-core inconsistency (English subtitle, preface, Chapter 1, diagnostic-card figure and cover), updates “How to use this book” from three chapters to nineteen, converts straight quotes to Chinese quotation marks, updates the series page to nine books, and corrects the DOI of The Price of Choice.
 authors:
   - family-names: "李"
     given-names: "毅芃"
     alias: "Li Yipeng"
     email: "1610369302@qq.com"
     affiliation: "独立研究者 / Independent Researcher"
-date-released: "2026-10-18"
+date-released: "2026-10-25"
+doi: 10.5281/zenodo.23637708
+concept-doi: 10.5281/zenodo.23440911
 license: CC-BY-4.0
 repository-code: "https://github.com/lyp0746/hotspot-bills"
-url: "https://github.com/lyp0746/hotspot-bills"
+url: "https://doi.org/10.5281/zenodo.23637708"
 keywords:
   - "热点的账单"
   - "六核诊断"
@@ -48,3 +50,4 @@ references:
     title: "诠释的权衡：历史研究中的置信度、权衡与理论流变——从人物还原到范式转移的五个应用 / The Tradeoffs of Interpretation: Confidence, Trade-offs, and Theoretical Change in Historical Research — Five Applications from Restoring Persons to Paradigm Shifts"
   - type: book
     title: "涌现的临界：为什么有些变化回不去——临界、涌现与形式化的边界 / The Criticality of Emergence: Why Some Changes Cannot Be Undone — Criticality, Emergence, and the Limits of Formalization"
+    doi: 10.5281/zenodo.23447311

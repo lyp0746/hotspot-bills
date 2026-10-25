@@ -14,7 +14,7 @@ def build():
     gold = "#b8862f"
     layers = []
 
-    # 母题：一条热搜的起伏曲线 + 五个“镜头”圆
+    # 母题：一条热搜的起伏曲线 + 六个“镜头”圆
     cx, base = 500, 760
     pts = []
     for i in range(0, 101):
@@ -23,12 +23,12 @@ def build():
         y = base - 180 * math.exp(-((t - 0.25) ** 2) / 0.02) - 250 * math.exp(-((t - 0.62) ** 2) / 0.012)
         pts.append(f"{x:.0f},{y:.0f}")
     layers.append('<polyline points="' + " ".join(pts) + '" fill="none" stroke="#5b6b7d" stroke-width="2"/>')
-    # 五个镜头（五核）
-    labels = ["看见", "记住", "跟上", "选择", "讲述"]
-    for i in range(5):
-        x = 220 + i * 140
+    # 六个镜头（六核）
+    labels = ["看见", "记住", "跟上", "选择", "讲述", "临界"]
+    for i in range(6):
+        x = 180 + i * 128
         y = base + 70
-        layers.append(f'<circle cx="{x}" cy="{y}" r="26" fill="none" stroke="{gold}" stroke-width="1.6" opacity="0.8"/>')
+        layers.append(f'<circle cx="{x}" cy="{y}" r="24" fill="none" stroke="{gold}" stroke-width="1.6" opacity="0.8"/>')
         layers.append(f'<line x1="{x-9}" y1="{y+9}" x2="{x-22}" y2="{y+22}" stroke="{gold}" stroke-width="2" opacity="0.7"/>')
         layers.append(f'<text x="{x}" y="{y+54}" text-anchor="middle" class="sm">{labels[i]}</text>')
     # 底部“账单”线
@@ -61,7 +61,7 @@ text{{font-family:'Microsoft YaHei','SimHei',Arial,sans-serif;}}
 <text x="84" y="396" class="sub">用六个核心，</text>
 <text x="84" y="440" class="sub">诊断过去一年的热搜与争论</text>
 <text x="80" y="1230" class="au">李毅芃　著</text>
-<text x="80" y="1282" class="eng">Five Lenses on a Year of Hot Debates</text>
+<text x="80" y="1282" class="eng">Six Lenses on a Year of Hot Debates</text>
 <text x="80" y="1324" class="eng">通俗诊断读本 · 2026</text>
 </svg>
 '''

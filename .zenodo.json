@@ -1,6 +1,6 @@
 {
   "title": "热点的账单：用六个核心，诊断过去一年的热搜与争论 / The Bill of the Hot List: Six Lenses on a Year of Hot Debates",
-  "description": "<p><b>中文.</b> 本著作是系列的方法演示：用六个核心，把过去一年被反复讨论的公共事件做成一张张诊断卡。</p><p>核心主张：看懂一个热点，不是站对一边，而是看清它让出了什么。六把尺子（看见、记住、跟上、选择、讲述、临界）不问“谁对”，只问“卡在哪一层”。</p><p>结构与证据：18 章、106 页、8 幅图；68 张诊断卡（26 张数据主卡 + 3 张补卡 + 34 张主题卡 + 5 张长卡），另加 30 条一句话诊断全部来自真实公开存档（338 天、2875 个话题；X 趋势 81 个“国家—日”采样），另设季度复盘、方法自检、十个反例与 90 分钟工作坊。</p><p>诚实的纪律：每张卡标证据等级与可反驳条件；数据缺口与口径问题逐条写明；明确诊断的是讨论的结构，不是事件的对错。</p><p>边界：案例会过期，方法不会；它不预测、不判决，也不替代一手来源。</p><p>版本：2026-10-18，106 页，18 章，8 图，68 张卡；采集与统计脚本开源，内容 CC BY 4.0，代码 MIT。</p><p><b>本版更新（2026-10-18 地基版）。</b>本版把全书的共同前提写到卷首：<b>现实中不存在无限</b>——无限只作为极限出现在模型里，从不出现在现实系统的实际状态里。有限性本身只说明“有上界”；它要变成“必须让出一样”，还需要三个条件同时成立：需求随规模增长、描述/组合/传递共享同一承载者、同时维持两种活动更贵（交互惩罚 ψ&gt;0）。因此“至多取二”一律是“紧预算（K/D 有界）下至多取二”的简写；若预算增长快于需求，三项可以同时满格。</p><p><b>本版新增内容。</b>第 3 章新增 3.27 补卡说明与 3.28–3.30 三张结构补卡：社保新规、骗婚、司法公信（不接入 338 天存档计数，B/C，不对具体案件作事实裁定）；全书 68 张诊断卡均新增“本卡假设的无限”字段；修正“十二个真实热点”为“二十六个”、“四张长卡”为“五张”。</p><p><b>系列 / Series.</b> 同一作者的独立研究系列：六本学术专著 + 两本通俗读本。入口与外部登记库：<a href=\"https://github.com/lyp0746/knowledge-tradeoffs\">https://github.com/lyp0746/knowledge-tradeoffs</a>；源码与可复算脚本：<a href=\"https://github.com/lyp0746/hotspot-bills\">https://github.com/lyp0746/hotspot-bills</a>。首选预览文件：<code>hotspot-bills-print.pdf</code>（印刷版）。</p><p><b>English.</b> Abstract (English). This is the series' methodological demonstration: six cores turn a year of contested public events into diagnostic cards. Core thesis: understanding a hot topic is not about taking the right side but about seeing what it gives up; six lenses ask not “who is right” but “on which layer is the argument stuck”. Structure and evidence: 18 chapters, 106 pages, 8 figures; 68 diagnostic cards (26 data cards + 3 supplementary cards + 34 thematic cards + 5 long-form), plus 30 one-line diagnoses drawn from real public archives — 338 days and 2,875 topics from Zhihu, plus 81 country–day samples of X trends — together with a quarterly review, a method self-audit, ten counterexamples and a 90-minute workshop. Discipline: every card carries an evidence grade and a refutation condition; data gaps and measurement caveats are stated; the object of diagnosis is the structure of the argument, not the facts of the case. Boundaries: cases expire, the method does not; it neither predicts nor judges, and never replaces primary sources. Edition: 2026-10-18, 106 pages, 18 chapters, 8 figures, 68 cards.</p><p><b>What is new in this edition (2026-10-18, Finitude Edition).</b> The common premise is now stated at the front: <b>there is no infinity in reality</b> — infinity appears only as a limit in models, never as a property of a real system. Finitude alone only says that there is a ceiling; to yield a trade-off it also needs three conditions: demand grows with scale, description/composition/transfer share one bearer, and maintaining two activities at once is more expensive (interaction penalty ψ&gt;0). “At most two” is therefore shorthand for “at most two under a tight budget (bounded K/D)”; if the budget grows faster than demand, all three can be full.</p><p><b>New in this edition.</b> Chapter 3 adds §3.27 and three supplementary cards (§3.28–3.30): social-insurance rules, marriage fraud, and judicial credibility (not counted in the 338-day archive; B/C; no factual adjudication of specific cases). All 68 cards now carry a “what infinity does this card assume?” field; the counts “twelve hot topics” and “four long cards” are corrected to “twenty-six” and “five”.</p>",
+  "description": "<p><b>中文.</b> 本著作是系列的方法演示：用六个核心，把过去一年被反复讨论的公共事件做成一张张诊断卡。</p><p>核心主张：看懂一个热点，不是站对一边，而是看清它让出了什么。六把尺子（看见、记住、跟上、选择、讲述、临界）不问“谁对”，只问“卡在哪一层”。</p><p>结构与证据：19 章、113 页、8 幅图、72 张诊断卡（26 张数据主卡 + 3 张补卡 + 34 张主题卡 + 5 张长卡 + 4 张法国专章卡），另加 30 条一句话诊断；全部来自真实公开存档（338 天、2875 个话题；X 趋势 81 个“国家—日”采样），另设季度复盘、方法自检、十个反例与 90 分钟工作坊。</p><p><b>本版修订（2026-10-25）。</b>修掉“六核/五核”不一致：英文副标题 Five Lenses→Six Lenses；前言“五本学术专著/五个更基础的动作”改为“六本/六个”，补上“临界”一条；第一章“五个问题”改为“六个问题”；诊断卡图与封面母题补上“临界”（原图只有五个镜头）；“怎么用这本书”从“三章、12+3 张卡”改为“十九章、26+3 张卡”，并补上复盘、自检、长卡、法国章入口；6034 个直引号改为中文引号；系列页更新为九本书并加入《心灵的分岔》；修正《选择的代价》DOI（23388629→23388628）。</p><p>诚实的纪律：每张卡标证据等级与可反驳条件；数据缺口与口径问题逐条写明；明确诊断的是讨论的结构，不是事件的对错。</p><p>边界：案例会过期，方法不会；它不预测、不判决，也不替代一手来源。涉及具体案件、数字与当事人的判断，以权威一手来源为准。</p><p>版本：2026-10-25，113 页，19 章，8 图，72 张卡；采集与统计脚本开源，内容 CC BY 4.0，代码 MIT。</p><p><b>系列 / Series.</b> 同一作者的独立研究系列：九本书（六本学术专著 + 两本通俗读本 + 一本科普专著《心灵的分岔》）与九篇工作论文。入口与外部登记库：<a href=\"https://github.com/lyp0746/knowledge-tradeoffs\">https://github.com/lyp0746/knowledge-tradeoffs</a>；源码与可复算脚本：<a href=\"https://github.com/lyp0746/hotspot-bills\">https://github.com/lyp0746/hotspot-bills</a>。首选预览文件：<code>hotspot-bills-print.pdf</code>（印刷版）。</p><p><b>English.</b> Abstract (English). This is the series' methodological demonstration: six cores turn a year of contested public events into diagnostic cards. Core thesis: understanding a hot topic is not about taking the right side but about seeing what it gives up; six lenses ask not “who is right” but “on which layer is the argument stuck”. Structure and evidence: 19 chapters, 113 pages, 8 figures, 72 diagnostic cards (26 data cards + 3 supplementary cards + 34 thematic cards + 5 long-form + 4 France cards), plus 30 one-line diagnoses drawn from real public archives — 338 days and 2,875 topics from Zhihu, plus 81 country–day samples of X trends — together with a quarterly review, a method self-audit, ten counterexamples and a 90-minute workshop. Discipline: every card carries an evidence grade and a refutation condition; data gaps and measurement caveats are stated; the object of diagnosis is the structure of the argument, not the facts of the case. Boundaries: cases expire, the method does not; it neither predicts nor judges, and never replaces primary sources. Edition: 2026-10-25, 113 pages, 19 chapters, 8 figures, 72 cards.</p><p><b>What is new in this edition (2026-10-25).</b> Fixed the six-core/five-core inconsistency: the English subtitle changed from “Five Lenses” to “Six Lenses”; the preface changed “five monographs / five more basic moves” to “six / six” and added the “criticality” bullet; Chapter 1 changed “five questions” to “six questions”; the diagnostic-card figure and the cover motif now include “criticality” (the old figure had only five lenses); “How to use this book” changed from “three chapters, 12+3 cards” to “nineteen chapters, 26+3 cards” and now points to the review, self-audit, long-form and France chapters; 6,034 straight quotation marks converted to Chinese quotation marks; the series page updated to nine books and now includes <i>The Forking Mind</i>; the DOI of <i>The Price of Choice</i> corrected (23388629→23388628).</p>",
   "creators": [
     {
       "name": "李毅芃",
@@ -51,59 +51,79 @@
       "scheme": "custom"
     }
   ],
-  "notes": "科目（中文）：科学普及 Popular Science、复杂系统 Complex Systems、媒介研究 Media Studies、科学方法论 Scientific Methodology、社会观察 Social Commentary。语言：中文（含英文摘要）。结构：18 章，约 100 页。首选预览文件：hotspot-bills-print.pdf（印刷版）。引用格式见 CITATION.cff。",
+  "notes": "科目（中文）：科学普及 Popular Science、复杂系统 Complex Systems、媒介研究 Media Studies、科学方法论 Scientific Methodology、社会观察 Social Commentary。语言：中文（含英文摘要）。结构：19 章，113 页，8 图，72 张卡。首选预览文件：hotspot-bills-print.pdf（印刷版）。引用格式见 CITATION.cff。 系列共 19 件（18 件作品 + 本合集）；related_identifiers 已按裸 DOI 归一。",
   "license": "CC-BY-4.0",
   "upload_type": "publication",
   "publication_type": "book",
   "language": "zho",
   "access_right": "open",
-  "publication_date": "2026-10-18",
+  "publication_date": "2026-10-25",
   "related_identifiers": [
-    {
-      "identifier": "https://github.com/lyp0746/hotspot-bills",
-      "relation": "isSupplementedBy",
-      "scheme": "url"
-    },
     {
       "identifier": "https://github.com/lyp0746/knowledge-tradeoffs",
       "relation": "isPartOf",
       "scheme": "url"
     },
     {
-      "identifier": "https://doi.org/10.5281/zenodo.23286403",
-      "relation": "documents",
+      "identifier": "10.5281/zenodo.23286403",
+      "relation": "references",
       "scheme": "doi"
     },
     {
-      "identifier": "https://doi.org/10.5281/zenodo.23323277",
-      "relation": "documents",
+      "identifier": "10.5281/zenodo.23323277",
+      "relation": "references",
       "scheme": "doi"
     },
     {
-      "identifier": "https://doi.org/10.5281/zenodo.23412033",
-      "relation": "documents",
+      "identifier": "10.5281/zenodo.23412033",
+      "relation": "references",
       "scheme": "doi"
     },
     {
-      "identifier": "https://doi.org/10.5281/zenodo.23388629",
-      "relation": "documents",
+      "identifier": "10.5281/zenodo.23388628",
+      "relation": "references",
       "scheme": "doi"
     },
     {
-      "identifier": "https://doi.org/10.5281/zenodo.23416220",
-      "relation": "documents",
+      "identifier": "10.5281/zenodo.23416220",
+      "relation": "references",
       "scheme": "doi"
     },
     {
-      "identifier": "https://github.com/lyp0746/emergence-critical",
-      "relation": "documents",
-      "scheme": "url"
+      "identifier": "10.5281/zenodo.23447311",
+      "relation": "references",
+      "scheme": "doi"
     },
     {
-      "identifier": "https://github.com/lyp0746/knowledge-tradeoffs",
+      "identifier": "10.5281/zenodo.23447341",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/lyp0746/mind-forks",
       "relation": "references",
       "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23529087",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23528958",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23531431",
+      "relation": "references",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.23573012",
+      "relation": "references",
+      "scheme": "doi"
     }
   ],
-  "version": "2026-10-19"
+  "version": "2026-10-25"
 }

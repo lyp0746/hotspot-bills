@@ -63,3 +63,6 @@ a { color: #0066cc; text-decoration: none; }
 
 /* 参考文献 */
 .refs p { font-size: 10pt; line-height: 1.6; }
+
+/* 首列短标签的表：避免首列被压成单字宽 */
+table.nat.nw1 td:first-child, table.nat.nw1 th:first-child { white-space: nowrap; }
