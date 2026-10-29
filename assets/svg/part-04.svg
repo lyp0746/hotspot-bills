@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 794 1123" width="794" height="1123">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1">
+    <stop offset="0" stop-color="#0e1117"/><stop offset="0.55" stop-color="#151a23"/><stop offset="1" stop-color="#0b0e14"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0.36" r="0.6">
+    <stop offset="0" stop-color="#b8862f" stop-opacity="0.10"/><stop offset="1" stop-color="#b8862f" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="794" height="1123" fill="url(#bg)"/>
+<rect width="794" height="1123" fill="url(#glow)"/>
+<rect x="28" y="28" width="738" height="1067" fill="none" stroke="#b8862f" stroke-opacity="0.28" stroke-width="0.8"/><line x1="28" y1="96" x2="766" y2="96" stroke="#b8862f" stroke-opacity="0.55" stroke-width="1.4"/>
+<line x1="120" y1="640" x2="684" y2="640" stroke="#b8862f" fill="none" stroke-width="1" stroke-opacity="0.55" stroke-opacity="0.4"/><rect x="132" y="550" width="26" height="90" stroke="#b8862f" fill="none" stroke-width="1" stroke-opacity="0.55" stroke-opacity="0.45"/><rect x="178" y="500" width="26" height="140" stroke="#b8862f" fill="none" stroke-width="1" stroke-opacity="0.55" stroke-opacity="0.45"/><rect x="224" y="430" width="26" height="210" stroke="#b8862f" fill="none" stroke-width="1" stroke-opacity="0.55" stroke-opacity="0.45"/><rect x="270" y="320" width="26" height="320" stroke="#b8862f" fill="none" stroke-width="1" stroke-opacity="0.55" stroke-opacity="0.45"/><rect x="316" y="380" width="26" height="260" stroke="#b8862f" fill="none" stroke-width="1" stroke-opacity="0.55" stroke-opacity="0.45"/><rect x="362" y="260" width="26" height="380" stroke="#b8862f" fill="none" stroke-width="1" stroke-opacity="0.55" stroke-opacity="0.45"/><rect x="408" y="340" width="26" height="300" stroke="#b8862f" fill="none" stroke-width="1" stroke-opacity="0.55" stroke-opacity="0.45"/><rect x="454" y="440" width="26" height="200" stroke="#b8862f" fill="none" stroke-width="1" stroke-opacity="0.55" stroke-opacity="0.45"/><rect x="500" y="490" width="26" height="150" stroke="#b8862f" fill="none" stroke-width="1" stroke-opacity="0.55" stroke-opacity="0.45"/><rect x="546" y="530" width="26" height="110" stroke="#b8862f" fill="none" stroke-width="1" stroke-opacity="0.55" stroke-opacity="0.45"/>
+<text x="644" y="1027" font-family="Georgia, Times New Roman, serif" font-size="210" fill="none" stroke="#b8862f" stroke-opacity="0.34" stroke-width="1.2" text-anchor="end">04</text><line x1="696" y1="1059" x2="696" y2="1045" stroke="#b8862f" stroke-opacity="0.85" stroke-width="1"/><line x1="710" y1="1059" x2="710" y2="1045" stroke="#b8862f" stroke-opacity="0.85" stroke-width="1"/><line x1="724" y1="1059" x2="724" y2="1045" stroke="#b8862f" stroke-opacity="0.85" stroke-width="1"/><line x1="738" y1="1059" x2="738" y2="1045" stroke="#b8862f" stroke-opacity="0.85" stroke-width="1"/><line x1="752" y1="1059" x2="752" y2="1053" stroke="#b8862f" stroke-opacity="0.3" stroke-width="1"/>
+</svg>

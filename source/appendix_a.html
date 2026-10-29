@@ -1,5 +1,5 @@
-<h2 class="chapter">附录</h2>
-<h3>附录 A　诊断卡模板（可直接复制）</h3>
+<h2 class="chapter">附录 A　可证伪登记簿</h2>
+<h3>附录 可证伪登记簿　诊断卡模板（可直接复制）</h3>
 <p>``` 事件：__________________________ 时间 / 平台：____________________ 链接 / 关键帖：__________________</p>
 <p>① 看见（区分） 关键分界线：__________________ 被划入 / 划出的人：____________</p>
 <p>② 记住（容量 / 遗忘） 被压缩成的标签：______________ 被丢掉的条件 / 概率 / 上下文：__</p>
@@ -23,7 +23,7 @@
 <p>本书配套脚本（均为低频、带缓存、失败即停，不绕过平台风控）：</p>
 <ul><li><code>analysis/collect_zhihu.py</code> —— 抓取知乎热榜/关键词（公开接口；搜索需登录态 Cookie）。</li><li><code>analysis/collect_x.py</code> —— 调用 X API v2（需 Bearer Token；<code>recent search</code> 仅覆盖最近 7 天，完整历史需更高访问等级）。</li><li><code>analysis/cluster_events.py</code> —— 去重、聚类、按热度和时间排序，输出 <code>data/events.json</code>。</li></ul>
 <p><strong>数据来源与口径</strong>：知乎、X 的公开内容与公开指标。第三方内容的权利归原作者与平台所有；本书只作结构性诊断，不用于对个人的评价。</p>
-<p><strong>怎样新增一个事件</strong>： 1. 运行采集脚本（或在 <code>data/events.json</code> 手工添加一条）； 2. 按附录 A 的模板填写诊断卡； 3. 在 <code>data/events.json</code> 里为它补上 <code>evidence</code>（A/B/C）与 <code>refutable</code>（可反驳条件）； 4. 重新构建，即生成新的案例章节。</p>
+<p><strong>怎样新增一个事件</strong>： 1. 运行采集脚本（或在 <code>data/events.json</code> 手工添加一条）； 2. 按附录 可证伪登记簿 的模板填写诊断卡； 3. 在 <code>data/events.json</code> 里为它补上 <code>evidence</code>（A/B/C）与 <code>refutable</code>（可反驳条件）； 4. 重新构建，即生成新的案例章节。</p>
 <h3>附录 D　可证伪登记（append-only）</h3>
 <table class="nat">
 <tr><th class="l">编号</th><th class="l">命题</th><th class="l">预测（方向）</th><th class="l">可反驳条件</th><th class="l">状态</th></tr>
@@ -88,7 +88,7 @@
 <tr><td class="l">我能把它用在家庭吗？</td><td class="l">能，而且最有用。但要先说好“不评价人，只算账”。</td></tr>
 <tr><td class="l">数据在哪？</td><td class="l">仓库 <code>data/</code>；脚本在 <code>analysis/</code>。</td></tr>
 <tr><td class="l">发现错误怎么办？</td><td class="l">开 issue。能公开改错的书，才值得被引用。</td></tr>
-<tr><td class="l">下一步读什么？</td><td class="l">通俗读本《只能选两样》，或直接读六本专著。</td></tr>
+<tr><td class="l">下一步读什么？</td><td class="l">通俗读本《只能选两样》，或直接读本系列专著。</td></tr>
 </table>
 
 <h3>附录 K　免责声明</h3>

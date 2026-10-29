@@ -1,7 +1,7 @@
-<h2 class="chapter">第二章　数据从哪里来：一次真实的采集</h2>
-<div class="box"><p>这一章讲清楚：本书的案例是怎么被<strong>真的</strong>选出来的。所有数字都可复现，脚本在附录 C。</p></div>
+<h2 class="chapter">第2章　数据从哪里来：一次真实的采集</h2>
+<div class="box box-takeaway"><p>这一章讲清楚：本书的案例是怎么被<strong>真的</strong>选出来的。所有数字都可复现，脚本在附录 C。</p></div>
 <h3 id="sec2-1">2.1　一个关键问题：怎么定义“过去一年的热门事件”</h3>
-<p>“热点”很容易说，很难定义。今天的热搜榜只告诉你“此刻什么热”，回答不了“过去一年什么被反复讨论”。</p>
+<p class="lead">“热点”很容易说，很难定义。今天的热搜榜只告诉你“此刻什么热”，回答不了“过去一年什么被反复讨论”。</p>
 <p>我们用的办法是：<strong>看一个话题在这一年里，上过多少次榜、跨越多长时间。</strong></p>
 <ul><li><strong>数据源</strong>：<code>github.com/lonnyzhang423/zhihu-hot-hub</code> 的每日存档（<code>archives/YYYY-MM-DD.md</code>）。它每小时抓取一次知乎热榜，按天归档，从 2021 年至今持续更新。</li><li><strong>采集区间</strong>：<strong>2025-10-16 ~ 2026-10-16</strong>（整整一年）。</li><li><strong>采集结果</strong>：成功取到 <strong>338 天</strong>的存档（少量日期缺失），去重后共 <strong>2875 个不同话题</strong>。</li><li><strong>排序口径</strong>：按“上榜天数”降序——<strong>一个话题上榜的天数越多，说明它被持续讨论得越久</strong>，越是“过去一年的事件”而不是“一天的浪花”。</li></ul>
 <div class="box"><p><strong>为什么用“天数”而不是“热度值”？</strong> 因为热度值只在当天可比，跨天不可比；而“是否连续多天在榜”是一个稳健的、跨时间可比的指标。这也是本书唯一使用的“重要性”代理变量——它不完美，但它诚实。</p></div>
