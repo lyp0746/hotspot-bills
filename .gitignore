@@ -7,3 +7,5 @@ __pycache__/
 /data/zhihu_cookie.txt
 /data/x_token.txt
 .DS_Store
+
+*.log
