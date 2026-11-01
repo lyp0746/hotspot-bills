@@ -8,7 +8,7 @@
 <p>⑤ 讲述（置信度分层） 争吵所在的层：事实 / 推理 / 诠释 位置冲突 还是 事实冲突：______</p>
 <p>⑥ 临界（相变） 什么量从≈0变非0：______ 变之前是否变慢：______ 宏观是否更好用：______ 三中几：______</p>
 <p>诊断结论（这张账单的总账）：______ 证据等级：A / B / C 可反驳条件：若发生 ______，则本卡被推翻。 ```</p>
-<h3>附录 B　六个核心一页速查</h3>
+<h4>附录 B　六个核心一页速查</h4>
 <table class="nat">
 <tr><th class="l">核心</th><th class="l">一句话</th><th class="l">对热点问什么</th></tr>
 <tr><td class="l">看见</td><td class="l">认识从划一道线开始，而划线有成本</td><td class="l">在划什么线？谁被排除？</td></tr>
@@ -19,12 +19,13 @@
 <tr><td class="l">临界</td><td class="l">量变到质变：序参量跃变、临界慢化、有效信息峰值</td><td class="l">跨过临界点了吗？三中几？</td></tr>
 </table>
 <p><strong>证据等级</strong>：A 官方可复现 / B 稳定公开估计 / C 稀疏·构造·思辨。 <strong>概念等级</strong>：甲 成熟形式化 / 乙 有论证但依赖未证前提 / 丙 思辨假说。 <strong>合并写作</strong>：<code>A／甲</code>。<strong>纪律：结论强度不超过证据强度。</strong></p>
-<h3>附录 C　数据采集脚本与来源</h3>
+<h4>附录 C　数据采集脚本与来源</h4>
 <p>本书配套脚本（均为低频、带缓存、失败即停，不绕过平台风控）：</p>
 <ul><li><code>analysis/collect_zhihu.py</code> —— 抓取知乎热榜/关键词（公开接口；搜索需登录态 Cookie）。</li><li><code>analysis/collect_x.py</code> —— 调用 X API v2（需 Bearer Token；<code>recent search</code> 仅覆盖最近 7 天，完整历史需更高访问等级）。</li><li><code>analysis/cluster_events.py</code> —— 去重、聚类、按热度和时间排序，输出 <code>data/events.json</code>。</li></ul>
 <p><strong>数据来源与口径</strong>：知乎、X 的公开内容与公开指标。第三方内容的权利归原作者与平台所有；本书只作结构性诊断，不用于对个人的评价。</p>
 <p><strong>怎样新增一个事件</strong>： 1. 运行采集脚本（或在 <code>data/events.json</code> 手工添加一条）； 2. 按附录 可证伪登记簿 的模板填写诊断卡； 3. 在 <code>data/events.json</code> 里为它补上 <code>evidence</code>（A/B/C）与 <code>refutable</code>（可反驳条件）； 4. 重新构建，即生成新的案例章节。</p>
-<h3>附录 D　可证伪登记（append-only）</h3>
+<h3 id="apxB">附录 B　登记簿与裁决</h3>
+<h4>附录 D　可证伪登记（append-only）</h4>
 <table class="nat">
 <tr><th class="l">编号</th><th class="l">命题</th><th class="l">预测（方向）</th><th class="l">可反驳条件</th><th class="l">状态</th></tr>
 <tr><td class="l">H1</td><td class="l">时间错配是舆论反转的结构性原因</td><td class="l">“快表态、慢调查”的事件占多数，且反转率与 τ 正相关</td><td class="l">若调查速度普遍追平传播速度，且反转率不降</td><td class="l">待核</td></tr>
@@ -42,9 +43,10 @@
 <tr><td class="l">置信度分配</td><td class="l">这件事该有多可信</td></tr>
 <tr><td class="l">位置冲突</td><td class="l">不是真假之争，是尺度与站位之争</td></tr>
 </table>
-<h3>附录 F　延伸</h3>
+<h3 id="apxC">附录 C　术语与合并词典</h3>
+<h4>附录 F　延伸</h4>
 <ul><li>系列入口与外部登记库：<a href="https://github.com/lyp0746/knowledge-tradeoffs">https://github.com/lyp0746/knowledge-tradeoffs</a></li><li>通俗读本《只能选两样》：同上仓库 <code>popular/</code></li></ul>
-<h3>附录 G　合并词典（同义合并示例）</h3>
+<h4>附录 G　合并词典（同义合并示例）</h4>
 <p>合并规则写在这里，便于你反对它。右列是判断依据。</p>
 <table class="nat">
 <tr><th class="l">合并为</th><th class="l">子条目（实际榜单写法）</th><th class="l">并入理由</th></tr>
@@ -57,7 +59,8 @@
 </table>
 <p><strong>原则：</strong> 只合并“同一事、同一焦虑、不同问法”；不合并“同一字、不同对象”。每一条合并都会改变排名，所以必须公开。</p>
 
-<h3>附录 H　可复算清单</h3>
+<h3 id="apxD">附录 D　可复算清单</h3>
+<h4>附录 H　可复算清单</h4>
 <table class="nat">
 <tr><th class="l">数字</th><th class="l">出处</th><th class="l">脚本</th></tr>
 <tr><td class="l">338 天 / 2875 个不同话题</td><td class="l">第二章</td><td class="l"><code>analysis/cluster_events.py</code></td></tr>
@@ -66,7 +69,8 @@
 <tr><td class="l">X 趋势 81 个“国家—日”采样</td><td class="l">第二章</td><td class="l"><code>analysis/collect_x.py</code></td></tr>
 </table>
 
-<h3>附录 I　一页速查（可打印）</h3>
+<h3 id="apxE">附录 E　速查与问答</h3>
+<h4>附录 I　一页速查（可打印）</h4>
 <table class="nat">
 <tr><th class="l">尺子</th><th class="l">问一句</th><th class="l">答不上来意味着</th></tr>
 <tr><td class="l">看见</td><td class="l">这件事把谁划在了线外？</td><td class="l">你还没决定要解决哪个问题</td></tr>
@@ -78,7 +82,7 @@
 </table>
 <p><strong>一个习惯：</strong> 每次想转发一条热搜之前，随便问上面其中一句。不需要全问，一句就够。</p>
 
-<h3>附录 J　常见问题八条</h3>
+<h4>附录 J　常见问题八条</h4>
 <table class="nat">
 <tr><th class="l">问</th><th class="l">简答</th></tr>
 <tr><td class="l">我不懂统计，能用吗？</td><td class="l">能。六把尺子里只有“跟上”需要一个比值，其余都是提问。</td></tr>
@@ -91,5 +95,6 @@
 <tr><td class="l">下一步读什么？</td><td class="l">通俗读本《只能选两样》，或直接读本系列专著。</td></tr>
 </table>
 
-<h3>附录 K　免责声明</h3>
+<h3 id="apxF">附录 F　免责与边界</h3>
+<h4>附录 K　免责声明</h4>
 <p>本书是对公共讨论结构的<strong>诊断练习</strong>，不是新闻调查，也不是对任何个人或机构的指控。凡涉及具体事实，请以权威一手来源为准。使用的平台数据均为公开内容，采集遵守平台条款与相关法律。</p>

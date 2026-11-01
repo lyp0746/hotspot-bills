@@ -1,5 +1,5 @@
 <h2 class="chapter">第2章　数据从哪里来：一次真实的采集</h2>
-<div class="box box-takeaway"><p>这一章讲清楚：本书的案例是怎么被<strong>真的</strong>选出来的。所有数字都可复现，脚本在附录 C。</p></div>
+<div class="box box-takeaway"><p>这一章讲清楚：本书的案例是怎么被<strong>真的</strong>选出来的。所有数字都可复现，脚本在附录A（原 C）。</p></div>
 <h3 id="sec2-1">2.1　一个关键问题：怎么定义“过去一年的热门事件”</h3>
 <p class="lead">“热点”很容易说，很难定义。今天的热搜榜只告诉你“此刻什么热”，回答不了“过去一年什么被反复讨论”。</p>
 <p>我们用的办法是：<strong>看一个话题在这一年里，上过多少次榜、跨越多长时间。</strong></p>
@@ -25,7 +25,7 @@
 <p>一个有意思的观察：<strong>排在最前面的，很多不是“事件”，而是“恒久的问题”</strong>——低成本爱好、成长、认知、焦虑、松弛感。它们在整年里反复上榜，说明<strong>公共焦虑有其稳定的形状</strong>；而真正的事件（中东、黄金、A 股）则集中在特定时段爆发。</p>
 <h3 id="sec2-3">2.3　X（Twitter）：两种数据都拿到了</h3>
 <p>X 的官方检索接口通常只覆盖最近 7 天，所以“过去一年的 X”需要另找一个<strong>按日归档</strong>的源。我们用的是 <strong>twtData 的免费历史趋势存档</strong>（<code>twtdata.com/twitter-trends/<国家>/<MM-DD-YYYY>/</code>），它对每个国家、每一天都保留一份当日的 X 趋势清单。</p>
-<ul><li><strong>国家</strong>：美国、英国、日本（覆盖三种语言与三种舆论生态）。</li><li><strong>采样</strong>：从 2025-10-16 到 2026-10-16，每 14 天取一天（27 个采样日 × 3 国 = <strong>81 个“国家—日”</strong>）。</li><li><strong>采集方式</strong>：该站有 Cloudflare 保护，须用无头浏览器取页面、等待其脚本加载出趋势表格（脚本见附录 C）。</li><li><strong>同时</strong>另存了<strong>当期</strong>的全球/美/印趋势快照（<code>data/x_trends_snapshot.json</code>）作对照。</li></ul>
+<ul><li><strong>国家</strong>：美国、英国、日本（覆盖三种语言与三种舆论生态）。</li><li><strong>采样</strong>：从 2025-10-16 到 2026-10-16，每 14 天取一天（27 个采样日 × 3 国 = <strong>81 个“国家—日”</strong>）。</li><li><strong>采集方式</strong>：该站有 Cloudflare 保护，须用无头浏览器取页面、等待其脚本加载出趋势表格（脚本见附录A（原 C））。</li><li><strong>同时</strong>另存了<strong>当期</strong>的全球/美/印趋势快照（<code>data/x_trends_snapshot.json</code>）作对照。</li></ul>
 <p><strong>美国一年趋势榜（按采样上榜次数，前几名）</strong>：<code>#AEWDynamite</code>（9 次）、<code>Good Thursday</code>（7）、<code>#Survivor50</code>（5）、<code>Darby</code>（4）、<code>Powell</code>（3）、<code>Portugal</code>（3）、<code>Arsenal</code>（3）、<code>Vini</code>（3）……</p>
 <p><strong>这里出现了一个与知乎截然不同的结构性发现：</strong></p>
 <table class="nat">
