@@ -11,13 +11,13 @@ authors:
     alias: "Li Yipeng"
     email: "1610369302@qq.com"
     affiliation: "独立研究者 / Independent Researcher"
-date-released: 2026-10-30
-version: "2026-10-30"
-doi: 10.5281/zenodo.23637708
+date-released: 2026-11-01
+version: "2026-11-01"
+doi: 10.5281/zenodo.23853865
 concept-doi: 10.5281/zenodo.23440911
 license: CC-BY-4.0
 repository-code: "https://github.com/lyp0746/hotspot-bills"
-url: "https://doi.org/10.5281/zenodo.23637708"
+url: "https://doi.org/10.5281/zenodo.23853865"
 keywords:
   - "热点的账单"
   - "六核诊断"

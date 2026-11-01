@@ -57,7 +57,7 @@
   "publication_type": "book",
   "language": "zho",
   "access_right": "open",
-  "publication_date": "2026-10-25",
+  "publication_date": "2026-11-01",
   "related_identifiers": [
     {
       "identifier": "https://github.com/lyp0746/knowledge-tradeoffs",
@@ -125,5 +125,5 @@
       "scheme": "doi"
     }
   ],
-  "version": "2026-10-25"
+  "version": "2026-11-01"
 }
