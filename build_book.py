@@ -35,11 +35,13 @@ FRONT = [("总纲　现实中不存在无限", "front_finitude.html", "finitude"
          ("前言　为什么热搜需要一张账单", "front_intro.html", "intro"),
          ("怎么用这本书", "front_howto.html", "howto")]
 BACK = [
-        ("结语　看完热搜之后", "back_epilogue.html", "apxe"),
         ("后记　写在下一次热搜之前", "back_afterword.html", "apxa"),
         ("数据、许可与如何引用", "back_data.html", "apxd"),
         ("本系列（九本书）", "back_series.html", "apxs"),
         ("附录 A　可证伪登记簿", "appendix_a.html", "apxA"),
+        ("附录 B　术语与常见误读", "appendix_b.html", "apxB"),
+        ("附录 C　卡片索引、口径与缺口", "appendix_c.html", "apxC"),
+        ("附录 D　三十道自测题", "appendix_d.html", "apxD"),
 ]
 
 

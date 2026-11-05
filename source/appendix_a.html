@@ -24,9 +24,9 @@
 
 <h2 class="chapter" id="apxB">附录 B　速查与数据</h2>
 
-<h3 id="secB-1">B.1　六个核心一页速查</h3>
+<h3 id="secA-3">A.3　六个核心一页速查</h3>
 <table class="nat">
-<caption class="cap"><b>表 B.1　六个核心：一句话与它对热点要问的那一句</b></caption>
+<caption class="cap"><b>表 A.3　六个核心：一句话与它对热点要问的那一句</b></caption>
 <thead><tr><th class="l">核心</th><th class="l">一句话</th><th class="l">对热点问什么</th></tr></thead>
 <tbody>
 <tr><td class="l">看见</td><td class="l">认识从划一道线开始，而划线有成本</td><td class="l">在划什么线？谁被排除？</td></tr>
@@ -38,7 +38,7 @@
 </tbody></table>
 <p><strong>证据等级</strong>：A 官方可复现／B 稳定公开估计／C 稀疏·构造·思辨。<strong>概念等级</strong>：甲 成熟形式化／乙 有论证但依赖未证前提／丙 思辨假说。<strong>合并写作</strong>：<code>A／甲</code>。<strong>纪律：结论强度不超过证据强度。</strong></p>
 
-<h3 id="secB-2">B.2　数据采集脚本与来源</h3>
+<h3 id="secA-4">A.4　数据采集脚本与来源</h3>
 <p>本书配套脚本（均为低频、带缓存、失败即停，不绕过平台风控）：</p>
 <ul><li><code>analysis/collect_zhihu.py</code> —— 抓取知乎热榜／关键词（公开接口；搜索需登录态 Cookie）。</li><li><code>analysis/collect_x.py</code> —— 调用 X API v2（需 Bearer Token；<code>recent search</code> 仅覆盖最近 7 天，完整历史需更高访问等级）。</li><li><code>analysis/cluster_events.py</code> —— 去重、聚类、按热度和时间排序，输出 <code>data/events.json</code>。</li></ul>
 <p><strong>数据来源与口径</strong>：知乎、X 的公开内容与公开指标。第三方内容的权利归原作者与平台所有；本书只作结构性诊断，不用于对个人的评价。</p>
@@ -46,9 +46,9 @@
 
 <h2 class="chapter" id="apxC">附录 C　术语与合并词典</h2>
 
-<h3 id="secC-1">C.1　术语：大词变小词</h3>
+<h3 id="secA-5">A.5　术语：大词变小词</h3>
 <table class="nat">
-<caption class="cap"><b>表 C.1　六个核心词的日常说法</b></caption>
+<caption class="cap"><b>表 A.5　六个核心词的日常说法</b></caption>
 <thead><tr><th class="l">词</th><th class="l">小词</th></tr></thead>
 <tbody>
 <tr><td class="l">区分</td><td class="l">划一道线</td></tr>
@@ -59,10 +59,10 @@
 <tr><td class="l">位置冲突</td><td class="l">不是真假之争，是尺度与站位之争</td></tr>
 </tbody></table>
 
-<h3 id="secC-2">C.2　合并词典（同义合并示例）</h3>
+<h3 id="secA-6">A.6　合并词典（同义合并示例）</h3>
 <p>合并规则写在这里，便于你反对它。右列是判断依据；每一条合并都会改变排名，所以必须公开。</p>
 <table class="nat">
-<caption class="cap"><b>表 C.2　合并与不合并：规则与理由</b></caption>
+<caption class="cap"><b>表 A.6　合并与不合并：规则与理由</b></caption>
 <thead><tr><th class="l">合并为</th><th class="l">子条目（实际榜单写法）</th><th class="l">并入理由</th></tr></thead>
 <tbody>
 <tr><td class="l">低成本爱好</td><td class="l">你的低成本爱好是什么／你有什么解压的小众爱好</td><td class="l">同一类问题，且时间上不重叠</td></tr>
@@ -88,9 +88,9 @@
 
 <h2 class="chapter" id="apxE">附录 E　速查与问答</h2>
 
-<h3 id="secE-1">E.1　一页速查（可打印）</h3>
+<h3 id="secA-7">A.7　一页速查（可打印）</h3>
 <table class="nat">
-<caption class="cap"><b>表 E.1　六把尺子：问一句，答不上来意味着什么</b></caption>
+<caption class="cap"><b>表 A.7　六把尺子：问一句，答不上来意味着什么</b></caption>
 <thead><tr><th class="l">尺子</th><th class="l">问一句</th><th class="l">答不上来意味着</th></tr></thead>
 <tbody>
 <tr><td class="l">看见</td><td class="l">这件事把谁划在了线外？</td><td class="l">你还没决定要解决哪个问题</td></tr>
@@ -102,9 +102,9 @@
 </tbody></table>
 <p><strong>一个习惯：</strong>每次想转发一条热搜之前，随便问上面其中一句。不需要全问，一句就够。</p>
 
-<h3 id="secE-2">E.2　常见问题八条</h3>
+<h3 id="secA-8">A.8　常见问题八条</h3>
 <table class="nat">
-<caption class="cap"><b>表 E.2　八个常见问题与简答</b></caption>
+<caption class="cap"><b>表 A.8　八个常见问题与简答</b></caption>
 <thead><tr><th class="l">问</th><th class="l">简答</th></tr></thead>
 <tbody>
 <tr><td class="l">我不懂统计，能用吗？</td><td class="l">能。六把尺子里只有"跟上"需要一个比值，其余都是提问。</td></tr>
@@ -119,11 +119,11 @@
 
 <h2 class="chapter" id="apxF">附录 F　边界、免责与延伸</h2>
 
-<h3 id="secF-1">F.1　免责声明</h3>
+<h3 id="secA-9">A.9　免责声明</h3>
 <p>本书是对公共讨论结构的<strong>诊断练习</strong>，不是新闻调查，也不是对任何个人或机构的指控。凡涉及具体事实，请以权威一手来源为准。使用的平台数据均为公开内容，采集遵守平台条款与相关法律。</p>
 <p>三个不做：不预测具体事件的走向；不评价具体个人的动机；不把诊断卡当作对他人的判断工具。</p>
 
-<h3 id="secF-2">F.2　延伸</h3>
+<h3 id="secA-10">A.10　延伸</h3>
 <ul>
 <li>系列入口与外部登记库：<a href="https://github.com/lyp0746/knowledge-tradeoffs">https://github.com/lyp0746/knowledge-tradeoffs</a></li>
 <li>通俗读本《只能选两样》：同一母题的另一条入口，适合先读人物、再读结构。</li>
