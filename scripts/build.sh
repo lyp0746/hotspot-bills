@@ -9,7 +9,7 @@ PY="${PYTHON:-python}"
 
 echo "== 1/5 插图与封面 =="
 "$PY" analysis/make_figures.py
-"$PY" analysis/make_cover.py
+# "$PY" analysis/make_cover.py  # 封面已统一为浅色模板，不再每次重建
 
 echo "== 2/5 印刷版（正式书稿版式）=="
 "$PY" build_book.py --pdf
