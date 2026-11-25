@@ -52,3 +52,13 @@
 
 - 第 15 章 20 个追问并为 3 节，第 16 章 12 句并为 1 节；保留每问／每句为加粗小标。
 - 页数 179 → 180。
+
+## 2026-11-25　工作区清理（断舍离）
+
+派生件与旧快照不留副本；版本靠本文件与 Zenodo 记录追溯。本次删除：
+
+- `output/book-ereader.html`
+- `output/book.html`
+
+重建：`build_book.py --pdf` / `--ereader --pdf`、`build_markdown.py`、`build_epub.py`；
+论文用 `generate_publication_suite.py`。
