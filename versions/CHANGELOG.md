@@ -1,3 +1,7 @@
+## 2026-11-26　清残留：删掉部分扉页的暗底金线 SVG
+
+`assets/svg/part-NN.svg`（54 个中的一本份）已删：那是早期暗色版扉页插图，早已被 `paper.css` 的 `.part-art{display:none}` 与纯 CSS 版扉页（米色底、顶部金线、大号数字）替代，留着只会让 `build_book.py` 输出一个指向已废弃文件的 `<img>`。同时删掉生成它的 `_series/tools/make_part_art.py`。**正文、版式、PDF 页数与外观均不变。**
+
 # 版本脉络（内部）
 
 > 本文件仅供维护者使用，**不进入发布包**。正文与元数据不含版本号；读者可见的版次信息以真实完成日期为准（见 `source/book.json`）。
